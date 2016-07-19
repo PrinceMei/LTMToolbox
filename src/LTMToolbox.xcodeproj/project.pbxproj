@@ -227,7 +227,7 @@
 
 /* Begin PBXFileReference section */
 		1049809E1D3DDA51004CE136 /* libLTMBlockKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLTMBlockKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		104980A91D3DDBC6004CE136 /* LTMMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMMacros.h; sourceTree = "<group>"; };
+		104980A91D3DDBC6004CE136 /* LTMBlockKitMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMBlockKitMacros.h; sourceTree = "<group>"; };
 		104980AA1D3DDBC6004CE136 /* LTMNSObject+BKBlockExecution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMNSObject+BKBlockExecution.h"; sourceTree = "<group>"; };
 		104980AB1D3DDBC6004CE136 /* LTMNSObject+BKBlockExecution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMNSObject+BKBlockExecution.m"; sourceTree = "<group>"; };
 		104980AC1D3DDBC6004CE136 /* LTMNSTimer+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMNSTimer+BlocksKit.h"; sourceTree = "<group>"; };
@@ -485,7 +485,7 @@
 		104980A81D3DDBC6004CE136 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				104980A91D3DDBC6004CE136 /* LTMMacros.h */,
+				104980A91D3DDBC6004CE136 /* LTMBlockKitMacros.h */,
 				104980AA1D3DDBC6004CE136 /* LTMNSObject+BKBlockExecution.h */,
 				104980AB1D3DDBC6004CE136 /* LTMNSObject+BKBlockExecution.m */,
 				104980AC1D3DDBC6004CE136 /* LTMNSTimer+BlocksKit.h */,
