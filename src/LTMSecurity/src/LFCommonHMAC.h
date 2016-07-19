@@ -1,0 +1,16 @@
+//
+//  DKCommonHMAC.h
+//  DKSecurity
+//
+//  Created by wangxiaoxiang on 16/5/27.
+//  Copyright © 2016年 wangxiaoxiang. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import <CommonCrypto/CommonHMAC.h>
+
+@interface LFCommonHMAC : NSObject
++ (NSData/*output data*/ *)hamc:(NSData *)inputData key:(NSData *)key algorithm:(CCHmacAlgorithm)algorithm;
+
++ (NSData/*output data*/ *)hamc:(NSData *)inputData key:(NSData *)key algorithm:(CCHmacAlgorithm)algorithm error:(NSError *__autoreleasing *)error;
+@end

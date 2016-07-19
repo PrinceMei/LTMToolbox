@@ -1,0 +1,1289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA36A8A41D3CF94200D9EC82 /* LTMContentSizeUtility.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14861D3CBD3300A9967F /* LTMContentSizeUtility.h */; };
+		CA36A8A51D3CF94200D9EC82 /* LTMContentSizeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14871D3CBD3300A9967F /* LTMContentSizeUtility.m */; };
+		CA36A8A61D3CF94200D9EC82 /* LTMGIFImage.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14881D3CBD3300A9967F /* LTMGIFImage.h */; };
+		CA36A8A71D3CF94200D9EC82 /* LTMGIFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14891D3CBD3300A9967F /* LTMGIFImage.m */; };
+		CA36A8A81D3CF94200D9EC82 /* LTMUIAlertControllerUtility.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB148A1D3CBD3300A9967F /* LTMUIAlertControllerUtility.h */; };
+		CA36A8A91D3CF94200D9EC82 /* LTMUIAlertControllerUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB148B1D3CBD3300A9967F /* LTMUIAlertControllerUtility.m */; };
+		CA36A8AA1D3CF94200D9EC82 /* LTMUIBarButtonItemUtility.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB148E1D3CBD3300A9967F /* LTMUIBarButtonItemUtility.h */; };
+		CA36A8AB1D3CF94200D9EC82 /* LTMUIBarButtonItemUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB148F1D3CBD3300A9967F /* LTMUIBarButtonItemUtility.m */; };
+		CA36A8AC1D3CF94200D9EC82 /* LTMUIButton+EnlargeEdge.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14901D3CBD3300A9967F /* LTMUIButton+EnlargeEdge.h */; };
+		CA36A8AD1D3CF94200D9EC82 /* LTMUIButton+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14911D3CBD3300A9967F /* LTMUIButton+EnlargeEdge.m */; };
+		CA36A8AE1D3CF94200D9EC82 /* LTMUIColor+RGB.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14921D3CBD3300A9967F /* LTMUIColor+RGB.h */; };
+		CA36A8AF1D3CF94200D9EC82 /* LTMUIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14931D3CBD3300A9967F /* LTMUIColor+RGB.m */; };
+		CA36A8B01D3CF94200D9EC82 /* LTMUIControl+Events.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14941D3CBD3300A9967F /* LTMUIControl+Events.h */; };
+		CA36A8B11D3CF94200D9EC82 /* LTMUIControl+Events.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14951D3CBD3300A9967F /* LTMUIControl+Events.m */; };
+		CA36A8B21D3CF94200D9EC82 /* LTMUIDeviceUtility.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14961D3CBD3300A9967F /* LTMUIDeviceUtility.h */; };
+		CA36A8B31D3CF94200D9EC82 /* LTMUIDeviceUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14971D3CBD3300A9967F /* LTMUIDeviceUtility.m */; };
+		CA36A8B41D3CF94200D9EC82 /* LTMUIImageUtility.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB149C1D3CBD3300A9967F /* LTMUIImageUtility.h */; };
+		CA36A8B51D3CF94200D9EC82 /* LTMUIImageUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB149D1D3CBD3300A9967F /* LTMUIImageUtility.m */; };
+		CA36A8B61D3CF94200D9EC82 /* LTMiOS.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB149E1D3CBD3300A9967F /* LTMiOS.h */; };
+		CA36A8B71D3CF94200D9EC82 /* LTMiOSDefines.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB149F1D3CBD3300A9967F /* LTMiOSDefines.h */; };
+		CA36A8B81D3CF94200D9EC82 /* LTMUINavigationController+Add.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14A01D3CBD3300A9967F /* LTMUINavigationController+Add.h */; };
+		CA36A8B91D3CF94200D9EC82 /* LTMUINavigationController+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14A11D3CBD3300A9967F /* LTMUINavigationController+Add.m */; };
+		CA36A8BA1D3CF94200D9EC82 /* LTMUIScrollViewUtility.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14A21D3CBD3300A9967F /* LTMUIScrollViewUtility.h */; };
+		CA36A8BB1D3CF94200D9EC82 /* LTMUIScrollViewUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14A31D3CBD3300A9967F /* LTMUIScrollViewUtility.m */; };
+		CA36A8BC1D3CF94200D9EC82 /* LTMViewRecycler.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14A61D3CBD3300A9967F /* LTMViewRecycler.h */; };
+		CA36A8BD1D3CF94200D9EC82 /* LTMViewRecycler.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14A71D3CBD3300A9967F /* LTMViewRecycler.m */; };
+		CA36A8BE1D3CF94200D9EC82 /* LTMGeometryUtility.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14A81D3CBD3300A9967F /* LTMGeometryUtility.h */; };
+		CA36A8BF1D3CF94200D9EC82 /* LTMGeometryUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14A91D3CBD3300A9967F /* LTMGeometryUtility.m */; };
+		CA36A8C01D3CF94200D9EC82 /* LTMUIImage+Alpha.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14AA1D3CBD3300A9967F /* LTMUIImage+Alpha.h */; };
+		CA36A8C11D3CF94200D9EC82 /* LTMUIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14AB1D3CBD3300A9967F /* LTMUIImage+Alpha.m */; };
+		CA36A8C21D3CF94200D9EC82 /* LTMUIImage+Resize.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14AC1D3CBD3300A9967F /* LTMUIImage+Resize.h */; };
+		CA36A8C31D3CF94200D9EC82 /* LTMUIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14AD1D3CBD3300A9967F /* LTMUIImage+Resize.m */; };
+		CA36A8C41D3CF94200D9EC82 /* LTMUIImage+Rotate.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14AE1D3CBD3300A9967F /* LTMUIImage+Rotate.h */; };
+		CA36A8C51D3CF94200D9EC82 /* LTMUIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14AF1D3CBD3300A9967F /* LTMUIImage+Rotate.m */; };
+		CA36A8C61D3CF94200D9EC82 /* LTMUIImage+RoundedCorner.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14B01D3CBD3300A9967F /* LTMUIImage+RoundedCorner.h */; };
+		CA36A8C71D3CF94200D9EC82 /* LTMUIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14B11D3CBD3300A9967F /* LTMUIImage+RoundedCorner.m */; };
+		CA36A8C81D3CF94200D9EC82 /* LTMUIView+Snapshot.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14B21D3CBD3300A9967F /* LTMUIView+Snapshot.h */; };
+		CA36A8C91D3CF94200D9EC82 /* LTMUIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14B31D3CBD3300A9967F /* LTMUIView+Snapshot.m */; };
+		CA36A8D41D3CFC5900D9EC82 /* LFCCHexStringEncoding.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14CA1D3CBD5000A9967F /* LFCCHexStringEncoding.h */; };
+		CA36A8D51D3CFC5900D9EC82 /* LFCCHexStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14CB1D3CBD5000A9967F /* LFCCHexStringEncoding.m */; };
+		CA36A8D61D3CFC5900D9EC82 /* LFCommonCrypto.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14CC1D3CBD5000A9967F /* LFCommonCrypto.h */; };
+		CA36A8D71D3CFC5900D9EC82 /* LFCommonCryptor.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14CD1D3CBD5000A9967F /* LFCommonCryptor.h */; };
+		CA36A8D81D3CFC5900D9EC82 /* LFCommonCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14CE1D3CBD5000A9967F /* LFCommonCryptor.m */; };
+		CA36A8D91D3CFC5900D9EC82 /* LFCommonDigest.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14CF1D3CBD5000A9967F /* LFCommonDigest.h */; };
+		CA36A8DA1D3CFC5900D9EC82 /* LFCommonDigest.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14D01D3CBD5000A9967F /* LFCommonDigest.m */; };
+		CA36A8DB1D3CFC5900D9EC82 /* LFCommonHMAC.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14D11D3CBD5000A9967F /* LFCommonHMAC.h */; };
+		CA36A8DC1D3CFC5900D9EC82 /* LFCommonHMAC.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14D21D3CBD5000A9967F /* LFCommonHMAC.m */; };
+		CA36A8DD1D3CFC5900D9EC82 /* LFRSACryptor.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14D31D3CBD5000A9967F /* LFRSACryptor.h */; };
+		CA36A8DE1D3CFC5900D9EC82 /* LFRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14D41D3CBD5000A9967F /* LFRSACryptor.m */; };
+		CA36A8E01D3CFE8300D9EC82 /* LTMMathTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = CA36A8DF1D3CFE8300D9EC82 /* LTMMathTestCase.m */; };
+		CA36A8E31D3DC42B00D9EC82 /* LTMObjectTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = CA36A8E21D3DC42B00D9EC82 /* LTMObjectTransformer.m */; };
+		CA36A8E51D3DC61600D9EC82 /* LTMObjectTransformerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA36A8E41D3DC61600D9EC82 /* LTMObjectTransformerTests.m */; };
+		CA36A8E71D3DC69B00D9EC82 /* LTMContentSizeUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA36A8E61D3DC69B00D9EC82 /* LTMContentSizeUtilityTests.m */; };
+		CA36A8E91D3DC82600D9EC82 /* LTMUIDeviceUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA36A8E81D3DC82600D9EC82 /* LTMUIDeviceUtilityTests.m */; };
+		CA36A8EC1D3DC8E000D9EC82 /* libLTMiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFB13BC1D3CB8C600A9967F /* libLTMiOS.a */; };
+		CA36A8EF1D3DCD5400D9EC82 /* libLTMFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFB13AD1D3CB85800A9967F /* libLTMFoundation.a */; };
+		CA36A8F21D3DCDE800D9EC82 /* libLTMSecurity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFB13CA1D3CB92600A9967F /* libLTMSecurity.a */; };
+		CAFB13DD1D3CBA4A00A9967F /* libLTMCoreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFB13A01D3CB7DD00A9967F /* libLTMCoreKit.a */; };
+		CAFB13EC1D3CBA6D00A9967F /* libLTMFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFB13AD1D3CB85800A9967F /* libLTMFoundation.a */; };
+		CAFB14171D3CBBFD00A9967F /* LTMMath.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14121D3CBBFD00A9967F /* LTMMath.m */; };
+		CAFB14181D3CBBFD00A9967F /* LTMPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14141D3CBBFD00A9967F /* LTMPaths.m */; };
+		CAFB14191D3CBBFD00A9967F /* LTMWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14161D3CBBFD00A9967F /* LTMWeakProxy.m */; };
+		CAFB146A1D3CBCC900A9967F /* LTMNSBundleUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB144B1D3CBCC900A9967F /* LTMNSBundleUtility.m */; };
+		CAFB146B1D3CBCC900A9967F /* LTMNSDataUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB144D1D3CBCC900A9967F /* LTMNSDataUtility.m */; };
+		CAFB146C1D3CBCC900A9967F /* LTMNSDateUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB144F1D3CBCC900A9967F /* LTMNSDateUtility.m */; };
+		CAFB146D1D3CBCC900A9967F /* LTMNSDictionaryUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14511D3CBCC900A9967F /* LTMNSDictionaryUtility.m */; };
+		CAFB146E1D3CBCC900A9967F /* LTMNSJSONSerializationUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14531D3CBCC900A9967F /* LTMNSJSONSerializationUtility.m */; };
+		CAFB146F1D3CBCC900A9967F /* LTMNSNotificationCenterUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14551D3CBCC900A9967F /* LTMNSNotificationCenterUtility.m */; };
+		CAFB14701D3CBCC900A9967F /* LTMNSRegularExpressionUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14571D3CBCC900A9967F /* LTMNSRegularExpressionUtility.m */; };
+		CAFB14711D3CBCC900A9967F /* LTMNSStringUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14591D3CBCC900A9967F /* LTMNSStringUtility.m */; };
+		CAFB14721D3CBCC900A9967F /* LTMNSArrayUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB145B1D3CBCC900A9967F /* LTMNSArrayUtility.m */; };
+		CAFB14731D3CBCC900A9967F /* LTMNSString+Digits.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB145F1D3CBCC900A9967F /* LTMNSString+Digits.m */; };
+		CAFB14741D3CBCC900A9967F /* LTMStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14611D3CBCC900A9967F /* LTMStringEncoding.m */; };
+		CAFB14751D3CBCC900A9967F /* LTMTypeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14631D3CBCC900A9967F /* LTMTypeUtility.m */; };
+		CAFB14761D3CBCC900A9967F /* LTMURLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14651D3CBCC900A9967F /* LTMURLArguments.m */; };
+		CAFB14771D3CBCC900A9967F /* LTMURLCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14671D3CBCC900A9967F /* LTMURLCoder.m */; };
+		CAFB14781D3CBCC900A9967F /* LTMZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14691D3CBCC900A9967F /* LTMZipArchive.m */; };
+		CAFB14821D3CBCD700A9967F /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = CAFB147A1D3CBCD700A9967F /* ioapi.c */; };
+		CAFB14831D3CBCD700A9967F /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = CAFB147C1D3CBCD700A9967F /* mztools.c */; };
+		CAFB14841D3CBCD700A9967F /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = CAFB147E1D3CBCD700A9967F /* unzip.c */; };
+		CAFB14851D3CBCD700A9967F /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14801D3CBCD700A9967F /* zip.c */; };
+		CAFB14B41D3CBD3300A9967F /* LTMContentSizeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14871D3CBD3300A9967F /* LTMContentSizeUtility.m */; };
+		CAFB14B51D3CBD3300A9967F /* LTMGIFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14891D3CBD3300A9967F /* LTMGIFImage.m */; };
+		CAFB14B61D3CBD3300A9967F /* LTMUIAlertControllerUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB148B1D3CBD3300A9967F /* LTMUIAlertControllerUtility.m */; };
+		CAFB14B81D3CBD3300A9967F /* LTMUIBarButtonItemUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB148F1D3CBD3300A9967F /* LTMUIBarButtonItemUtility.m */; };
+		CAFB14B91D3CBD3300A9967F /* LTMUIButton+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14911D3CBD3300A9967F /* LTMUIButton+EnlargeEdge.m */; };
+		CAFB14BA1D3CBD3300A9967F /* LTMUIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14931D3CBD3300A9967F /* LTMUIColor+RGB.m */; };
+		CAFB14BB1D3CBD3300A9967F /* LTMUIControl+Events.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14951D3CBD3300A9967F /* LTMUIControl+Events.m */; };
+		CAFB14BC1D3CBD3300A9967F /* LTMUIDeviceUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14971D3CBD3300A9967F /* LTMUIDeviceUtility.m */; };
+		CAFB14BF1D3CBD3300A9967F /* LTMUIImageUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB149D1D3CBD3300A9967F /* LTMUIImageUtility.m */; };
+		CAFB14C01D3CBD3300A9967F /* LTMUINavigationController+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14A11D3CBD3300A9967F /* LTMUINavigationController+Add.m */; };
+		CAFB14C11D3CBD3300A9967F /* LTMUIScrollViewUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14A31D3CBD3300A9967F /* LTMUIScrollViewUtility.m */; };
+		CAFB14C31D3CBD3300A9967F /* LTMViewRecycler.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14A71D3CBD3300A9967F /* LTMViewRecycler.m */; };
+		CAFB14C41D3CBD3300A9967F /* LTMGeometryUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14A91D3CBD3300A9967F /* LTMGeometryUtility.m */; };
+		CAFB14C51D3CBD3300A9967F /* LTMUIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14AB1D3CBD3300A9967F /* LTMUIImage+Alpha.m */; };
+		CAFB14C61D3CBD3300A9967F /* LTMUIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14AD1D3CBD3300A9967F /* LTMUIImage+Resize.m */; };
+		CAFB14C71D3CBD3300A9967F /* LTMUIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14AF1D3CBD3300A9967F /* LTMUIImage+Rotate.m */; };
+		CAFB14C81D3CBD3300A9967F /* LTMUIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14B11D3CBD3300A9967F /* LTMUIImage+RoundedCorner.m */; };
+		CAFB14C91D3CBD3300A9967F /* LTMUIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14B31D3CBD3300A9967F /* LTMUIView+Snapshot.m */; };
+		CAFB14DD1D3CC0BC00A9967F /* libLTMCoreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFB13A01D3CB7DD00A9967F /* libLTMCoreKit.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA36A8CA1D3CF98700D9EC82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFB13881D3CB74800A9967F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFB139F1D3CB7DD00A9967F;
+			remoteInfo = LTMCoreKit;
+		};
+		CA36A8EA1D3DC8DA00D9EC82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFB13881D3CB74800A9967F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFB13BB1D3CB8C600A9967F;
+			remoteInfo = LTMiOS;
+		};
+		CA36A8ED1D3DCD3E00D9EC82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFB13881D3CB74800A9967F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFB13AC1D3CB85800A9967F;
+			remoteInfo = LTMFoundation;
+		};
+		CA36A8F01D3DCDD900D9EC82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFB13881D3CB74800A9967F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFB13C91D3CB92600A9967F;
+			remoteInfo = LTMSecurity;
+		};
+		CAFB13DE1D3CBA4A00A9967F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFB13881D3CB74800A9967F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFB139F1D3CB7DD00A9967F;
+			remoteInfo = LTMCoreKit;
+		};
+		CAFB13ED1D3CBA6D00A9967F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFB13881D3CB74800A9967F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFB13AC1D3CB85800A9967F;
+			remoteInfo = LTMFoundation;
+		};
+		CAFB14DB1D3CC0AC00A9967F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFB13881D3CB74800A9967F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFB139F1D3CB7DD00A9967F;
+			remoteInfo = LTMCoreKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAFB139E1D3CB7DD00A9967F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFB13AB1D3CB85800A9967F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFB13BA1D3CB8C600A9967F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFB13C81D3CB92600A9967F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CA36A8DF1D3CFE8300D9EC82 /* LTMMathTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMMathTestCase.m; sourceTree = "<group>"; };
+		CA36A8E11D3DC42B00D9EC82 /* LTMObjectTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMObjectTransformer.h; sourceTree = "<group>"; };
+		CA36A8E21D3DC42B00D9EC82 /* LTMObjectTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMObjectTransformer.m; sourceTree = "<group>"; };
+		CA36A8E41D3DC61600D9EC82 /* LTMObjectTransformerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMObjectTransformerTests.m; sourceTree = "<group>"; };
+		CA36A8E61D3DC69B00D9EC82 /* LTMContentSizeUtilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMContentSizeUtilityTests.m; sourceTree = "<group>"; };
+		CA36A8E81D3DC82600D9EC82 /* LTMUIDeviceUtilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMUIDeviceUtilityTests.m; sourceTree = "<group>"; };
+		CAFB13A01D3CB7DD00A9967F /* libLTMCoreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLTMCoreKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFB13AD1D3CB85800A9967F /* libLTMFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLTMFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFB13BC1D3CB8C600A9967F /* libLTMiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLTMiOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFB13CA1D3CB92600A9967F /* libLTMSecurity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLTMSecurity.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFB13D81D3CBA4A00A9967F /* LTMCoreKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTMCoreKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFB13DC1D3CBA4A00A9967F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFB13E71D3CBA6D00A9967F /* LTMFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTMFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFB13EB1D3CBA6D00A9967F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFB13F61D3CBA8400A9967F /* LTMiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTMiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFB13FA1D3CBA8400A9967F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFB140F1D3CBBFD00A9967F /* LTMCoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMCoreKit.h; sourceTree = "<group>"; };
+		CAFB14101D3CBBFD00A9967F /* LTMCoreKitDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMCoreKitDefines.h; sourceTree = "<group>"; };
+		CAFB14111D3CBBFD00A9967F /* LTMMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMMath.h; sourceTree = "<group>"; };
+		CAFB14121D3CBBFD00A9967F /* LTMMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMMath.m; sourceTree = "<group>"; };
+		CAFB14131D3CBBFD00A9967F /* LTMPaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMPaths.h; sourceTree = "<group>"; };
+		CAFB14141D3CBBFD00A9967F /* LTMPaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMPaths.m; sourceTree = "<group>"; };
+		CAFB14151D3CBBFD00A9967F /* LTMWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMWeakProxy.h; sourceTree = "<group>"; };
+		CAFB14161D3CBBFD00A9967F /* LTMWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMWeakProxy.m; sourceTree = "<group>"; };
+		CAFB144A1D3CBCC900A9967F /* LTMNSBundleUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMNSBundleUtility.h; sourceTree = "<group>"; };
+		CAFB144B1D3CBCC900A9967F /* LTMNSBundleUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMNSBundleUtility.m; sourceTree = "<group>"; };
+		CAFB144C1D3CBCC900A9967F /* LTMNSDataUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMNSDataUtility.h; sourceTree = "<group>"; };
+		CAFB144D1D3CBCC900A9967F /* LTMNSDataUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMNSDataUtility.m; sourceTree = "<group>"; };
+		CAFB144E1D3CBCC900A9967F /* LTMNSDateUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMNSDateUtility.h; sourceTree = "<group>"; };
+		CAFB144F1D3CBCC900A9967F /* LTMNSDateUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMNSDateUtility.m; sourceTree = "<group>"; };
+		CAFB14501D3CBCC900A9967F /* LTMNSDictionaryUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMNSDictionaryUtility.h; sourceTree = "<group>"; };
+		CAFB14511D3CBCC900A9967F /* LTMNSDictionaryUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMNSDictionaryUtility.m; sourceTree = "<group>"; };
+		CAFB14521D3CBCC900A9967F /* LTMNSJSONSerializationUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMNSJSONSerializationUtility.h; sourceTree = "<group>"; };
+		CAFB14531D3CBCC900A9967F /* LTMNSJSONSerializationUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMNSJSONSerializationUtility.m; sourceTree = "<group>"; };
+		CAFB14541D3CBCC900A9967F /* LTMNSNotificationCenterUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMNSNotificationCenterUtility.h; sourceTree = "<group>"; };
+		CAFB14551D3CBCC900A9967F /* LTMNSNotificationCenterUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMNSNotificationCenterUtility.m; sourceTree = "<group>"; };
+		CAFB14561D3CBCC900A9967F /* LTMNSRegularExpressionUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMNSRegularExpressionUtility.h; sourceTree = "<group>"; };
+		CAFB14571D3CBCC900A9967F /* LTMNSRegularExpressionUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMNSRegularExpressionUtility.m; sourceTree = "<group>"; };
+		CAFB14581D3CBCC900A9967F /* LTMNSStringUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMNSStringUtility.h; sourceTree = "<group>"; };
+		CAFB14591D3CBCC900A9967F /* LTMNSStringUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMNSStringUtility.m; sourceTree = "<group>"; };
+		CAFB145A1D3CBCC900A9967F /* LTMNSArrayUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMNSArrayUtility.h; sourceTree = "<group>"; };
+		CAFB145B1D3CBCC900A9967F /* LTMNSArrayUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMNSArrayUtility.m; sourceTree = "<group>"; };
+		CAFB145C1D3CBCC900A9967F /* LTMFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMFoundation.h; sourceTree = "<group>"; };
+		CAFB145D1D3CBCC900A9967F /* LTMFoundationDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMFoundationDefines.h; sourceTree = "<group>"; };
+		CAFB145E1D3CBCC900A9967F /* LTMNSString+Digits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMNSString+Digits.h"; sourceTree = "<group>"; };
+		CAFB145F1D3CBCC900A9967F /* LTMNSString+Digits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMNSString+Digits.m"; sourceTree = "<group>"; };
+		CAFB14601D3CBCC900A9967F /* LTMStringEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMStringEncoding.h; sourceTree = "<group>"; };
+		CAFB14611D3CBCC900A9967F /* LTMStringEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMStringEncoding.m; sourceTree = "<group>"; };
+		CAFB14621D3CBCC900A9967F /* LTMTypeUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMTypeUtility.h; sourceTree = "<group>"; };
+		CAFB14631D3CBCC900A9967F /* LTMTypeUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMTypeUtility.m; sourceTree = "<group>"; };
+		CAFB14641D3CBCC900A9967F /* LTMURLArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMURLArguments.h; sourceTree = "<group>"; };
+		CAFB14651D3CBCC900A9967F /* LTMURLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMURLArguments.m; sourceTree = "<group>"; };
+		CAFB14661D3CBCC900A9967F /* LTMURLCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMURLCoder.h; sourceTree = "<group>"; };
+		CAFB14671D3CBCC900A9967F /* LTMURLCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMURLCoder.m; sourceTree = "<group>"; };
+		CAFB14681D3CBCC900A9967F /* LTMZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMZipArchive.h; sourceTree = "<group>"; };
+		CAFB14691D3CBCC900A9967F /* LTMZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMZipArchive.m; sourceTree = "<group>"; };
+		CAFB14791D3CBCD700A9967F /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		CAFB147A1D3CBCD700A9967F /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		CAFB147B1D3CBCD700A9967F /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		CAFB147C1D3CBCD700A9967F /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		CAFB147D1D3CBCD700A9967F /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		CAFB147E1D3CBCD700A9967F /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		CAFB147F1D3CBCD700A9967F /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		CAFB14801D3CBCD700A9967F /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		CAFB14811D3CBCD700A9967F /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		CAFB14861D3CBD3300A9967F /* LTMContentSizeUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMContentSizeUtility.h; sourceTree = "<group>"; };
+		CAFB14871D3CBD3300A9967F /* LTMContentSizeUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMContentSizeUtility.m; sourceTree = "<group>"; };
+		CAFB14881D3CBD3300A9967F /* LTMGIFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMGIFImage.h; sourceTree = "<group>"; };
+		CAFB14891D3CBD3300A9967F /* LTMGIFImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMGIFImage.m; sourceTree = "<group>"; };
+		CAFB148A1D3CBD3300A9967F /* LTMUIAlertControllerUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMUIAlertControllerUtility.h; sourceTree = "<group>"; };
+		CAFB148B1D3CBD3300A9967F /* LTMUIAlertControllerUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMUIAlertControllerUtility.m; sourceTree = "<group>"; };
+		CAFB148E1D3CBD3300A9967F /* LTMUIBarButtonItemUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMUIBarButtonItemUtility.h; sourceTree = "<group>"; };
+		CAFB148F1D3CBD3300A9967F /* LTMUIBarButtonItemUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMUIBarButtonItemUtility.m; sourceTree = "<group>"; };
+		CAFB14901D3CBD3300A9967F /* LTMUIButton+EnlargeEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIButton+EnlargeEdge.h"; sourceTree = "<group>"; };
+		CAFB14911D3CBD3300A9967F /* LTMUIButton+EnlargeEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIButton+EnlargeEdge.m"; sourceTree = "<group>"; };
+		CAFB14921D3CBD3300A9967F /* LTMUIColor+RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIColor+RGB.h"; sourceTree = "<group>"; };
+		CAFB14931D3CBD3300A9967F /* LTMUIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIColor+RGB.m"; sourceTree = "<group>"; };
+		CAFB14941D3CBD3300A9967F /* LTMUIControl+Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIControl+Events.h"; sourceTree = "<group>"; };
+		CAFB14951D3CBD3300A9967F /* LTMUIControl+Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIControl+Events.m"; sourceTree = "<group>"; };
+		CAFB14961D3CBD3300A9967F /* LTMUIDeviceUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMUIDeviceUtility.h; sourceTree = "<group>"; };
+		CAFB14971D3CBD3300A9967F /* LTMUIDeviceUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMUIDeviceUtility.m; sourceTree = "<group>"; };
+		CAFB149C1D3CBD3300A9967F /* LTMUIImageUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMUIImageUtility.h; sourceTree = "<group>"; };
+		CAFB149D1D3CBD3300A9967F /* LTMUIImageUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMUIImageUtility.m; sourceTree = "<group>"; };
+		CAFB149E1D3CBD3300A9967F /* LTMiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMiOS.h; sourceTree = "<group>"; };
+		CAFB149F1D3CBD3300A9967F /* LTMiOSDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMiOSDefines.h; sourceTree = "<group>"; };
+		CAFB14A01D3CBD3300A9967F /* LTMUINavigationController+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUINavigationController+Add.h"; sourceTree = "<group>"; };
+		CAFB14A11D3CBD3300A9967F /* LTMUINavigationController+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUINavigationController+Add.m"; sourceTree = "<group>"; };
+		CAFB14A21D3CBD3300A9967F /* LTMUIScrollViewUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMUIScrollViewUtility.h; sourceTree = "<group>"; };
+		CAFB14A31D3CBD3300A9967F /* LTMUIScrollViewUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMUIScrollViewUtility.m; sourceTree = "<group>"; };
+		CAFB14A61D3CBD3300A9967F /* LTMViewRecycler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMViewRecycler.h; sourceTree = "<group>"; };
+		CAFB14A71D3CBD3300A9967F /* LTMViewRecycler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMViewRecycler.m; sourceTree = "<group>"; };
+		CAFB14A81D3CBD3300A9967F /* LTMGeometryUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMGeometryUtility.h; sourceTree = "<group>"; };
+		CAFB14A91D3CBD3300A9967F /* LTMGeometryUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMGeometryUtility.m; sourceTree = "<group>"; };
+		CAFB14AA1D3CBD3300A9967F /* LTMUIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIImage+Alpha.h"; sourceTree = "<group>"; };
+		CAFB14AB1D3CBD3300A9967F /* LTMUIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIImage+Alpha.m"; sourceTree = "<group>"; };
+		CAFB14AC1D3CBD3300A9967F /* LTMUIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIImage+Resize.h"; sourceTree = "<group>"; };
+		CAFB14AD1D3CBD3300A9967F /* LTMUIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIImage+Resize.m"; sourceTree = "<group>"; };
+		CAFB14AE1D3CBD3300A9967F /* LTMUIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIImage+Rotate.h"; sourceTree = "<group>"; };
+		CAFB14AF1D3CBD3300A9967F /* LTMUIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIImage+Rotate.m"; sourceTree = "<group>"; };
+		CAFB14B01D3CBD3300A9967F /* LTMUIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		CAFB14B11D3CBD3300A9967F /* LTMUIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		CAFB14B21D3CBD3300A9967F /* LTMUIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIView+Snapshot.h"; sourceTree = "<group>"; };
+		CAFB14B31D3CBD3300A9967F /* LTMUIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIView+Snapshot.m"; sourceTree = "<group>"; };
+		CAFB14CA1D3CBD5000A9967F /* LFCCHexStringEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCCHexStringEncoding.h; sourceTree = "<group>"; };
+		CAFB14CB1D3CBD5000A9967F /* LFCCHexStringEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCCHexStringEncoding.m; sourceTree = "<group>"; };
+		CAFB14CC1D3CBD5000A9967F /* LFCommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCommonCrypto.h; sourceTree = "<group>"; };
+		CAFB14CD1D3CBD5000A9967F /* LFCommonCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCommonCryptor.h; sourceTree = "<group>"; };
+		CAFB14CE1D3CBD5000A9967F /* LFCommonCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCommonCryptor.m; sourceTree = "<group>"; };
+		CAFB14CF1D3CBD5000A9967F /* LFCommonDigest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCommonDigest.h; sourceTree = "<group>"; };
+		CAFB14D01D3CBD5000A9967F /* LFCommonDigest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCommonDigest.m; sourceTree = "<group>"; };
+		CAFB14D11D3CBD5000A9967F /* LFCommonHMAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCommonHMAC.h; sourceTree = "<group>"; };
+		CAFB14D21D3CBD5000A9967F /* LFCommonHMAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCommonHMAC.m; sourceTree = "<group>"; };
+		CAFB14D31D3CBD5000A9967F /* LFRSACryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFRSACryptor.h; sourceTree = "<group>"; };
+		CAFB14D41D3CBD5000A9967F /* LFRSACryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFRSACryptor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFB139D1D3CB7DD00A9967F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFB13AA1D3CB85800A9967F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA36A8F21D3DCDE800D9EC82 /* libLTMSecurity.a in Frameworks */,
+				CAFB14DD1D3CC0BC00A9967F /* libLTMCoreKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFB13B91D3CB8C600A9967F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA36A8EF1D3DCD5400D9EC82 /* libLTMFoundation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFB13C71D3CB92600A9967F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFB13D51D3CBA4A00A9967F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFB13DD1D3CBA4A00A9967F /* libLTMCoreKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFB13E41D3CBA6D00A9967F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFB13EC1D3CBA6D00A9967F /* libLTMFoundation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFB13F31D3CBA8400A9967F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA36A8EC1D3DC8E000D9EC82 /* libLTMiOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAFB13871D3CB74800A9967F = {
+			isa = PBXGroup;
+			children = (
+				CAFB13A11D3CB7DD00A9967F /* LTMCoreKit */,
+				CAFB13AE1D3CB85800A9967F /* LTMFoundation */,
+				CAFB13BD1D3CB8C600A9967F /* LTMiOS */,
+				CAFB13CB1D3CB92600A9967F /* LTMSecurity */,
+				CAFB13D91D3CBA4A00A9967F /* LTMCoreKitTests */,
+				CAFB13E81D3CBA6D00A9967F /* LTMFoundationTests */,
+				CAFB13F71D3CBA8400A9967F /* LTMiOSTests */,
+				CAFB13911D3CB74800A9967F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFB13911D3CB74800A9967F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB13A01D3CB7DD00A9967F /* libLTMCoreKit.a */,
+				CAFB13AD1D3CB85800A9967F /* libLTMFoundation.a */,
+				CAFB13BC1D3CB8C600A9967F /* libLTMiOS.a */,
+				CAFB13CA1D3CB92600A9967F /* libLTMSecurity.a */,
+				CAFB13D81D3CBA4A00A9967F /* LTMCoreKitTests.xctest */,
+				CAFB13E71D3CBA6D00A9967F /* LTMFoundationTests.xctest */,
+				CAFB13F61D3CBA8400A9967F /* LTMiOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFB13A11D3CB7DD00A9967F /* LTMCoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB13B61D3CB86C00A9967F /* src */,
+			);
+			path = LTMCoreKit;
+			sourceTree = "<group>";
+		};
+		CAFB13AE1D3CB85800A9967F /* LTMFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB13B71D3CB87800A9967F /* src */,
+			);
+			path = LTMFoundation;
+			sourceTree = "<group>";
+		};
+		CAFB13B61D3CB86C00A9967F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB140F1D3CBBFD00A9967F /* LTMCoreKit.h */,
+				CAFB14101D3CBBFD00A9967F /* LTMCoreKitDefines.h */,
+				CAFB14111D3CBBFD00A9967F /* LTMMath.h */,
+				CAFB14121D3CBBFD00A9967F /* LTMMath.m */,
+				CAFB14131D3CBBFD00A9967F /* LTMPaths.h */,
+				CAFB14141D3CBBFD00A9967F /* LTMPaths.m */,
+				CAFB14151D3CBBFD00A9967F /* LTMWeakProxy.h */,
+				CAFB14161D3CBBFD00A9967F /* LTMWeakProxy.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		CAFB13B71D3CB87800A9967F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CA36A8E11D3DC42B00D9EC82 /* LTMObjectTransformer.h */,
+				CA36A8E21D3DC42B00D9EC82 /* LTMObjectTransformer.m */,
+				CAFB144A1D3CBCC900A9967F /* LTMNSBundleUtility.h */,
+				CAFB144B1D3CBCC900A9967F /* LTMNSBundleUtility.m */,
+				CAFB144C1D3CBCC900A9967F /* LTMNSDataUtility.h */,
+				CAFB144D1D3CBCC900A9967F /* LTMNSDataUtility.m */,
+				CAFB144E1D3CBCC900A9967F /* LTMNSDateUtility.h */,
+				CAFB144F1D3CBCC900A9967F /* LTMNSDateUtility.m */,
+				CAFB14501D3CBCC900A9967F /* LTMNSDictionaryUtility.h */,
+				CAFB14511D3CBCC900A9967F /* LTMNSDictionaryUtility.m */,
+				CAFB14521D3CBCC900A9967F /* LTMNSJSONSerializationUtility.h */,
+				CAFB14531D3CBCC900A9967F /* LTMNSJSONSerializationUtility.m */,
+				CAFB14541D3CBCC900A9967F /* LTMNSNotificationCenterUtility.h */,
+				CAFB14551D3CBCC900A9967F /* LTMNSNotificationCenterUtility.m */,
+				CAFB14561D3CBCC900A9967F /* LTMNSRegularExpressionUtility.h */,
+				CAFB14571D3CBCC900A9967F /* LTMNSRegularExpressionUtility.m */,
+				CAFB14581D3CBCC900A9967F /* LTMNSStringUtility.h */,
+				CAFB14591D3CBCC900A9967F /* LTMNSStringUtility.m */,
+				CAFB145A1D3CBCC900A9967F /* LTMNSArrayUtility.h */,
+				CAFB145B1D3CBCC900A9967F /* LTMNSArrayUtility.m */,
+				CAFB145C1D3CBCC900A9967F /* LTMFoundation.h */,
+				CAFB145D1D3CBCC900A9967F /* LTMFoundationDefines.h */,
+				CAFB145E1D3CBCC900A9967F /* LTMNSString+Digits.h */,
+				CAFB145F1D3CBCC900A9967F /* LTMNSString+Digits.m */,
+				CAFB14601D3CBCC900A9967F /* LTMStringEncoding.h */,
+				CAFB14611D3CBCC900A9967F /* LTMStringEncoding.m */,
+				CAFB14621D3CBCC900A9967F /* LTMTypeUtility.h */,
+				CAFB14631D3CBCC900A9967F /* LTMTypeUtility.m */,
+				CAFB14641D3CBCC900A9967F /* LTMURLArguments.h */,
+				CAFB14651D3CBCC900A9967F /* LTMURLArguments.m */,
+				CAFB14661D3CBCC900A9967F /* LTMURLCoder.h */,
+				CAFB14671D3CBCC900A9967F /* LTMURLCoder.m */,
+				CAFB14681D3CBCC900A9967F /* LTMZipArchive.h */,
+				CAFB14691D3CBCC900A9967F /* LTMZipArchive.m */,
+				CAFB14491D3CBC5600A9967F /* minizip */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		CAFB13BD1D3CB8C600A9967F /* LTMiOS */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB13C51D3CB8D200A9967F /* src */,
+			);
+			name = LTMiOS;
+			path = LTMiOS/src;
+			sourceTree = "<group>";
+		};
+		CAFB13C51D3CB8D200A9967F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB14861D3CBD3300A9967F /* LTMContentSizeUtility.h */,
+				CAFB14871D3CBD3300A9967F /* LTMContentSizeUtility.m */,
+				CAFB14881D3CBD3300A9967F /* LTMGIFImage.h */,
+				CAFB14891D3CBD3300A9967F /* LTMGIFImage.m */,
+				CAFB148A1D3CBD3300A9967F /* LTMUIAlertControllerUtility.h */,
+				CAFB148B1D3CBD3300A9967F /* LTMUIAlertControllerUtility.m */,
+				CAFB148E1D3CBD3300A9967F /* LTMUIBarButtonItemUtility.h */,
+				CAFB148F1D3CBD3300A9967F /* LTMUIBarButtonItemUtility.m */,
+				CAFB14901D3CBD3300A9967F /* LTMUIButton+EnlargeEdge.h */,
+				CAFB14911D3CBD3300A9967F /* LTMUIButton+EnlargeEdge.m */,
+				CAFB14921D3CBD3300A9967F /* LTMUIColor+RGB.h */,
+				CAFB14931D3CBD3300A9967F /* LTMUIColor+RGB.m */,
+				CAFB14941D3CBD3300A9967F /* LTMUIControl+Events.h */,
+				CAFB14951D3CBD3300A9967F /* LTMUIControl+Events.m */,
+				CAFB14961D3CBD3300A9967F /* LTMUIDeviceUtility.h */,
+				CAFB14971D3CBD3300A9967F /* LTMUIDeviceUtility.m */,
+				CAFB149C1D3CBD3300A9967F /* LTMUIImageUtility.h */,
+				CAFB149D1D3CBD3300A9967F /* LTMUIImageUtility.m */,
+				CAFB149E1D3CBD3300A9967F /* LTMiOS.h */,
+				CAFB149F1D3CBD3300A9967F /* LTMiOSDefines.h */,
+				CAFB14A01D3CBD3300A9967F /* LTMUINavigationController+Add.h */,
+				CAFB14A11D3CBD3300A9967F /* LTMUINavigationController+Add.m */,
+				CAFB14A21D3CBD3300A9967F /* LTMUIScrollViewUtility.h */,
+				CAFB14A31D3CBD3300A9967F /* LTMUIScrollViewUtility.m */,
+				CAFB14A61D3CBD3300A9967F /* LTMViewRecycler.h */,
+				CAFB14A71D3CBD3300A9967F /* LTMViewRecycler.m */,
+				CAFB14A81D3CBD3300A9967F /* LTMGeometryUtility.h */,
+				CAFB14A91D3CBD3300A9967F /* LTMGeometryUtility.m */,
+				CAFB14AA1D3CBD3300A9967F /* LTMUIImage+Alpha.h */,
+				CAFB14AB1D3CBD3300A9967F /* LTMUIImage+Alpha.m */,
+				CAFB14AC1D3CBD3300A9967F /* LTMUIImage+Resize.h */,
+				CAFB14AD1D3CBD3300A9967F /* LTMUIImage+Resize.m */,
+				CAFB14AE1D3CBD3300A9967F /* LTMUIImage+Rotate.h */,
+				CAFB14AF1D3CBD3300A9967F /* LTMUIImage+Rotate.m */,
+				CAFB14B01D3CBD3300A9967F /* LTMUIImage+RoundedCorner.h */,
+				CAFB14B11D3CBD3300A9967F /* LTMUIImage+RoundedCorner.m */,
+				CAFB14B21D3CBD3300A9967F /* LTMUIView+Snapshot.h */,
+				CAFB14B31D3CBD3300A9967F /* LTMUIView+Snapshot.m */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		CAFB13CB1D3CB92600A9967F /* LTMSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB13D31D3CB93000A9967F /* src */,
+			);
+			path = LTMSecurity;
+			sourceTree = "<group>";
+		};
+		CAFB13D31D3CB93000A9967F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB14CA1D3CBD5000A9967F /* LFCCHexStringEncoding.h */,
+				CAFB14CB1D3CBD5000A9967F /* LFCCHexStringEncoding.m */,
+				CAFB14CC1D3CBD5000A9967F /* LFCommonCrypto.h */,
+				CAFB14CD1D3CBD5000A9967F /* LFCommonCryptor.h */,
+				CAFB14CE1D3CBD5000A9967F /* LFCommonCryptor.m */,
+				CAFB14CF1D3CBD5000A9967F /* LFCommonDigest.h */,
+				CAFB14D01D3CBD5000A9967F /* LFCommonDigest.m */,
+				CAFB14D11D3CBD5000A9967F /* LFCommonHMAC.h */,
+				CAFB14D21D3CBD5000A9967F /* LFCommonHMAC.m */,
+				CAFB14D31D3CBD5000A9967F /* LFRSACryptor.h */,
+				CAFB14D41D3CBD5000A9967F /* LFRSACryptor.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		CAFB13D91D3CBA4A00A9967F /* LTMCoreKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB13DC1D3CBA4A00A9967F /* Info.plist */,
+				CA36A8DF1D3CFE8300D9EC82 /* LTMMathTestCase.m */,
+			);
+			path = LTMCoreKitTests;
+			sourceTree = "<group>";
+		};
+		CAFB13E81D3CBA6D00A9967F /* LTMFoundationTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB13EB1D3CBA6D00A9967F /* Info.plist */,
+				CA36A8E41D3DC61600D9EC82 /* LTMObjectTransformerTests.m */,
+			);
+			path = LTMFoundationTests;
+			sourceTree = "<group>";
+		};
+		CAFB13F71D3CBA8400A9967F /* LTMiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB13FA1D3CBA8400A9967F /* Info.plist */,
+				CA36A8E61D3DC69B00D9EC82 /* LTMContentSizeUtilityTests.m */,
+				CA36A8E81D3DC82600D9EC82 /* LTMUIDeviceUtilityTests.m */,
+			);
+			path = LTMiOSTests;
+			sourceTree = "<group>";
+		};
+		CAFB14491D3CBC5600A9967F /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB14791D3CBCD700A9967F /* crypt.h */,
+				CAFB147A1D3CBCD700A9967F /* ioapi.c */,
+				CAFB147B1D3CBCD700A9967F /* ioapi.h */,
+				CAFB147C1D3CBCD700A9967F /* mztools.c */,
+				CAFB147D1D3CBCD700A9967F /* mztools.h */,
+				CAFB147E1D3CBCD700A9967F /* unzip.c */,
+				CAFB147F1D3CBCD700A9967F /* unzip.h */,
+				CAFB14801D3CBCD700A9967F /* zip.c */,
+				CAFB14811D3CBCD700A9967F /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAFB139F1D3CB7DD00A9967F /* LTMCoreKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFB13A61D3CB7DD00A9967F /* Build configuration list for PBXNativeTarget "LTMCoreKit" */;
+			buildPhases = (
+				CAFB139C1D3CB7DD00A9967F /* Sources */,
+				CAFB139D1D3CB7DD00A9967F /* Frameworks */,
+				CAFB139E1D3CB7DD00A9967F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTMCoreKit;
+			productName = LTMCoreKit;
+			productReference = CAFB13A01D3CB7DD00A9967F /* libLTMCoreKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CAFB13AC1D3CB85800A9967F /* LTMFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFB13B31D3CB85800A9967F /* Build configuration list for PBXNativeTarget "LTMFoundation" */;
+			buildPhases = (
+				CAFB13A91D3CB85800A9967F /* Sources */,
+				CAFB13AA1D3CB85800A9967F /* Frameworks */,
+				CAFB13AB1D3CB85800A9967F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA36A8F11D3DCDD900D9EC82 /* PBXTargetDependency */,
+				CAFB14DC1D3CC0AC00A9967F /* PBXTargetDependency */,
+			);
+			name = LTMFoundation;
+			productName = LTMFoundation;
+			productReference = CAFB13AD1D3CB85800A9967F /* libLTMFoundation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CAFB13BB1D3CB8C600A9967F /* LTMiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFB13C21D3CB8C600A9967F /* Build configuration list for PBXNativeTarget "LTMiOS" */;
+			buildPhases = (
+				CAFB13B81D3CB8C600A9967F /* Sources */,
+				CAFB13B91D3CB8C600A9967F /* Frameworks */,
+				CAFB13BA1D3CB8C600A9967F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA36A8EE1D3DCD3E00D9EC82 /* PBXTargetDependency */,
+				CA36A8CB1D3CF98700D9EC82 /* PBXTargetDependency */,
+			);
+			name = LTMiOS;
+			productName = LTMiOS;
+			productReference = CAFB13BC1D3CB8C600A9967F /* libLTMiOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CAFB13C91D3CB92600A9967F /* LTMSecurity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFB13D01D3CB92600A9967F /* Build configuration list for PBXNativeTarget "LTMSecurity" */;
+			buildPhases = (
+				CAFB13C61D3CB92600A9967F /* Sources */,
+				CAFB13C71D3CB92600A9967F /* Frameworks */,
+				CAFB13C81D3CB92600A9967F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTMSecurity;
+			productName = LTMSecurity;
+			productReference = CAFB13CA1D3CB92600A9967F /* libLTMSecurity.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CAFB13D71D3CBA4A00A9967F /* LTMCoreKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFB13E01D3CBA4A00A9967F /* Build configuration list for PBXNativeTarget "LTMCoreKitTests" */;
+			buildPhases = (
+				CAFB13D41D3CBA4A00A9967F /* Sources */,
+				CAFB13D51D3CBA4A00A9967F /* Frameworks */,
+				CAFB13D61D3CBA4A00A9967F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFB13DF1D3CBA4A00A9967F /* PBXTargetDependency */,
+			);
+			name = LTMCoreKitTests;
+			productName = LTMCoreKitTests;
+			productReference = CAFB13D81D3CBA4A00A9967F /* LTMCoreKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAFB13E61D3CBA6D00A9967F /* LTMFoundationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFB13EF1D3CBA6D00A9967F /* Build configuration list for PBXNativeTarget "LTMFoundationTests" */;
+			buildPhases = (
+				CAFB13E31D3CBA6D00A9967F /* Sources */,
+				CAFB13E41D3CBA6D00A9967F /* Frameworks */,
+				CAFB13E51D3CBA6D00A9967F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFB13EE1D3CBA6D00A9967F /* PBXTargetDependency */,
+			);
+			name = LTMFoundationTests;
+			productName = LTMFoundationTests;
+			productReference = CAFB13E71D3CBA6D00A9967F /* LTMFoundationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAFB13F51D3CBA8400A9967F /* LTMiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFB13FE1D3CBA8400A9967F /* Build configuration list for PBXNativeTarget "LTMiOSTests" */;
+			buildPhases = (
+				CAFB13F21D3CBA8400A9967F /* Sources */,
+				CAFB13F31D3CBA8400A9967F /* Frameworks */,
+				CAFB13F41D3CBA8400A9967F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA36A8EB1D3DC8DA00D9EC82 /* PBXTargetDependency */,
+			);
+			name = LTMiOSTests;
+			productName = LTMiOSTests;
+			productReference = CAFB13F61D3CBA8400A9967F /* LTMiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFB13881D3CB74800A9967F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Youku;
+				TargetAttributes = {
+					CAFB139F1D3CB7DD00A9967F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CAFB13AC1D3CB85800A9967F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CAFB13BB1D3CB8C600A9967F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CAFB13C91D3CB92600A9967F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CAFB13D71D3CBA4A00A9967F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CAFB13E61D3CBA6D00A9967F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CAFB13F51D3CBA8400A9967F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CAFB138B1D3CB74800A9967F /* Build configuration list for PBXProject "LTMToolbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAFB13871D3CB74800A9967F;
+			productRefGroup = CAFB13911D3CB74800A9967F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFB139F1D3CB7DD00A9967F /* LTMCoreKit */,
+				CAFB13AC1D3CB85800A9967F /* LTMFoundation */,
+				CAFB13BB1D3CB8C600A9967F /* LTMiOS */,
+				CAFB13C91D3CB92600A9967F /* LTMSecurity */,
+				CAFB13D71D3CBA4A00A9967F /* LTMCoreKitTests */,
+				CAFB13E61D3CBA6D00A9967F /* LTMFoundationTests */,
+				CAFB13F51D3CBA8400A9967F /* LTMiOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFB13D61D3CBA4A00A9967F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFB13E51D3CBA6D00A9967F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFB13F41D3CBA8400A9967F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFB139C1D3CB7DD00A9967F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFB14181D3CBBFD00A9967F /* LTMPaths.m in Sources */,
+				CAFB14191D3CBBFD00A9967F /* LTMWeakProxy.m in Sources */,
+				CAFB14171D3CBBFD00A9967F /* LTMMath.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFB13A91D3CB85800A9967F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFB14841D3CBCD700A9967F /* unzip.c in Sources */,
+				CAFB14B81D3CBD3300A9967F /* LTMUIBarButtonItemUtility.m in Sources */,
+				CAFB146A1D3CBCC900A9967F /* LTMNSBundleUtility.m in Sources */,
+				CAFB14C11D3CBD3300A9967F /* LTMUIScrollViewUtility.m in Sources */,
+				CAFB14C31D3CBD3300A9967F /* LTMViewRecycler.m in Sources */,
+				CAFB14701D3CBCC900A9967F /* LTMNSRegularExpressionUtility.m in Sources */,
+				CAFB14B61D3CBD3300A9967F /* LTMUIAlertControllerUtility.m in Sources */,
+				CAFB14751D3CBCC900A9967F /* LTMTypeUtility.m in Sources */,
+				CA36A8E31D3DC42B00D9EC82 /* LTMObjectTransformer.m in Sources */,
+				CAFB146F1D3CBCC900A9967F /* LTMNSNotificationCenterUtility.m in Sources */,
+				CAFB14BF1D3CBD3300A9967F /* LTMUIImageUtility.m in Sources */,
+				CAFB146E1D3CBCC900A9967F /* LTMNSJSONSerializationUtility.m in Sources */,
+				CAFB14B91D3CBD3300A9967F /* LTMUIButton+EnlargeEdge.m in Sources */,
+				CAFB14851D3CBCD700A9967F /* zip.c in Sources */,
+				CAFB14BC1D3CBD3300A9967F /* LTMUIDeviceUtility.m in Sources */,
+				CAFB14711D3CBCC900A9967F /* LTMNSStringUtility.m in Sources */,
+				CAFB14BA1D3CBD3300A9967F /* LTMUIColor+RGB.m in Sources */,
+				CAFB14741D3CBCC900A9967F /* LTMStringEncoding.m in Sources */,
+				CAFB14C01D3CBD3300A9967F /* LTMUINavigationController+Add.m in Sources */,
+				CAFB14C71D3CBD3300A9967F /* LTMUIImage+Rotate.m in Sources */,
+				CAFB14831D3CBCD700A9967F /* mztools.c in Sources */,
+				CAFB14BB1D3CBD3300A9967F /* LTMUIControl+Events.m in Sources */,
+				CAFB146C1D3CBCC900A9967F /* LTMNSDateUtility.m in Sources */,
+				CAFB14B51D3CBD3300A9967F /* LTMGIFImage.m in Sources */,
+				CAFB146B1D3CBCC900A9967F /* LTMNSDataUtility.m in Sources */,
+				CAFB14771D3CBCC900A9967F /* LTMURLCoder.m in Sources */,
+				CAFB14821D3CBCD700A9967F /* ioapi.c in Sources */,
+				CAFB14C41D3CBD3300A9967F /* LTMGeometryUtility.m in Sources */,
+				CAFB14781D3CBCC900A9967F /* LTMZipArchive.m in Sources */,
+				CAFB14C81D3CBD3300A9967F /* LTMUIImage+RoundedCorner.m in Sources */,
+				CAFB14C91D3CBD3300A9967F /* LTMUIView+Snapshot.m in Sources */,
+				CAFB14C51D3CBD3300A9967F /* LTMUIImage+Alpha.m in Sources */,
+				CAFB14731D3CBCC900A9967F /* LTMNSString+Digits.m in Sources */,
+				CAFB14C61D3CBD3300A9967F /* LTMUIImage+Resize.m in Sources */,
+				CAFB146D1D3CBCC900A9967F /* LTMNSDictionaryUtility.m in Sources */,
+				CAFB14721D3CBCC900A9967F /* LTMNSArrayUtility.m in Sources */,
+				CAFB14B41D3CBD3300A9967F /* LTMContentSizeUtility.m in Sources */,
+				CAFB14761D3CBCC900A9967F /* LTMURLArguments.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFB13B81D3CB8C600A9967F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA36A8A41D3CF94200D9EC82 /* LTMContentSizeUtility.h in Sources */,
+				CA36A8A51D3CF94200D9EC82 /* LTMContentSizeUtility.m in Sources */,
+				CA36A8A61D3CF94200D9EC82 /* LTMGIFImage.h in Sources */,
+				CA36A8A71D3CF94200D9EC82 /* LTMGIFImage.m in Sources */,
+				CA36A8A81D3CF94200D9EC82 /* LTMUIAlertControllerUtility.h in Sources */,
+				CA36A8A91D3CF94200D9EC82 /* LTMUIAlertControllerUtility.m in Sources */,
+				CA36A8AA1D3CF94200D9EC82 /* LTMUIBarButtonItemUtility.h in Sources */,
+				CA36A8AB1D3CF94200D9EC82 /* LTMUIBarButtonItemUtility.m in Sources */,
+				CA36A8AC1D3CF94200D9EC82 /* LTMUIButton+EnlargeEdge.h in Sources */,
+				CA36A8AD1D3CF94200D9EC82 /* LTMUIButton+EnlargeEdge.m in Sources */,
+				CA36A8AE1D3CF94200D9EC82 /* LTMUIColor+RGB.h in Sources */,
+				CA36A8AF1D3CF94200D9EC82 /* LTMUIColor+RGB.m in Sources */,
+				CA36A8B01D3CF94200D9EC82 /* LTMUIControl+Events.h in Sources */,
+				CA36A8B11D3CF94200D9EC82 /* LTMUIControl+Events.m in Sources */,
+				CA36A8B21D3CF94200D9EC82 /* LTMUIDeviceUtility.h in Sources */,
+				CA36A8B31D3CF94200D9EC82 /* LTMUIDeviceUtility.m in Sources */,
+				CA36A8B41D3CF94200D9EC82 /* LTMUIImageUtility.h in Sources */,
+				CA36A8B51D3CF94200D9EC82 /* LTMUIImageUtility.m in Sources */,
+				CA36A8B61D3CF94200D9EC82 /* LTMiOS.h in Sources */,
+				CA36A8B71D3CF94200D9EC82 /* LTMiOSDefines.h in Sources */,
+				CA36A8B81D3CF94200D9EC82 /* LTMUINavigationController+Add.h in Sources */,
+				CA36A8B91D3CF94200D9EC82 /* LTMUINavigationController+Add.m in Sources */,
+				CA36A8BA1D3CF94200D9EC82 /* LTMUIScrollViewUtility.h in Sources */,
+				CA36A8BB1D3CF94200D9EC82 /* LTMUIScrollViewUtility.m in Sources */,
+				CA36A8BC1D3CF94200D9EC82 /* LTMViewRecycler.h in Sources */,
+				CA36A8BD1D3CF94200D9EC82 /* LTMViewRecycler.m in Sources */,
+				CA36A8BE1D3CF94200D9EC82 /* LTMGeometryUtility.h in Sources */,
+				CA36A8BF1D3CF94200D9EC82 /* LTMGeometryUtility.m in Sources */,
+				CA36A8C01D3CF94200D9EC82 /* LTMUIImage+Alpha.h in Sources */,
+				CA36A8C11D3CF94200D9EC82 /* LTMUIImage+Alpha.m in Sources */,
+				CA36A8C21D3CF94200D9EC82 /* LTMUIImage+Resize.h in Sources */,
+				CA36A8C31D3CF94200D9EC82 /* LTMUIImage+Resize.m in Sources */,
+				CA36A8C41D3CF94200D9EC82 /* LTMUIImage+Rotate.h in Sources */,
+				CA36A8C51D3CF94200D9EC82 /* LTMUIImage+Rotate.m in Sources */,
+				CA36A8C61D3CF94200D9EC82 /* LTMUIImage+RoundedCorner.h in Sources */,
+				CA36A8C71D3CF94200D9EC82 /* LTMUIImage+RoundedCorner.m in Sources */,
+				CA36A8C81D3CF94200D9EC82 /* LTMUIView+Snapshot.h in Sources */,
+				CA36A8C91D3CF94200D9EC82 /* LTMUIView+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFB13C61D3CB92600A9967F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA36A8D41D3CFC5900D9EC82 /* LFCCHexStringEncoding.h in Sources */,
+				CA36A8D51D3CFC5900D9EC82 /* LFCCHexStringEncoding.m in Sources */,
+				CA36A8D61D3CFC5900D9EC82 /* LFCommonCrypto.h in Sources */,
+				CA36A8D71D3CFC5900D9EC82 /* LFCommonCryptor.h in Sources */,
+				CA36A8D81D3CFC5900D9EC82 /* LFCommonCryptor.m in Sources */,
+				CA36A8D91D3CFC5900D9EC82 /* LFCommonDigest.h in Sources */,
+				CA36A8DA1D3CFC5900D9EC82 /* LFCommonDigest.m in Sources */,
+				CA36A8DB1D3CFC5900D9EC82 /* LFCommonHMAC.h in Sources */,
+				CA36A8DC1D3CFC5900D9EC82 /* LFCommonHMAC.m in Sources */,
+				CA36A8DD1D3CFC5900D9EC82 /* LFRSACryptor.h in Sources */,
+				CA36A8DE1D3CFC5900D9EC82 /* LFRSACryptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFB13D41D3CBA4A00A9967F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA36A8E01D3CFE8300D9EC82 /* LTMMathTestCase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFB13E31D3CBA6D00A9967F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA36A8E51D3DC61600D9EC82 /* LTMObjectTransformerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFB13F21D3CBA8400A9967F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA36A8E91D3DC82600D9EC82 /* LTMUIDeviceUtilityTests.m in Sources */,
+				CA36A8E71D3DC69B00D9EC82 /* LTMContentSizeUtilityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA36A8CB1D3CF98700D9EC82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFB139F1D3CB7DD00A9967F /* LTMCoreKit */;
+			targetProxy = CA36A8CA1D3CF98700D9EC82 /* PBXContainerItemProxy */;
+		};
+		CA36A8EB1D3DC8DA00D9EC82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFB13BB1D3CB8C600A9967F /* LTMiOS */;
+			targetProxy = CA36A8EA1D3DC8DA00D9EC82 /* PBXContainerItemProxy */;
+		};
+		CA36A8EE1D3DCD3E00D9EC82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFB13AC1D3CB85800A9967F /* LTMFoundation */;
+			targetProxy = CA36A8ED1D3DCD3E00D9EC82 /* PBXContainerItemProxy */;
+		};
+		CA36A8F11D3DCDD900D9EC82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFB13C91D3CB92600A9967F /* LTMSecurity */;
+			targetProxy = CA36A8F01D3DCDD900D9EC82 /* PBXContainerItemProxy */;
+		};
+		CAFB13DF1D3CBA4A00A9967F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFB139F1D3CB7DD00A9967F /* LTMCoreKit */;
+			targetProxy = CAFB13DE1D3CBA4A00A9967F /* PBXContainerItemProxy */;
+		};
+		CAFB13EE1D3CBA6D00A9967F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFB13AC1D3CB85800A9967F /* LTMFoundation */;
+			targetProxy = CAFB13ED1D3CBA6D00A9967F /* PBXContainerItemProxy */;
+		};
+		CAFB14DC1D3CC0AC00A9967F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFB139F1D3CB7DD00A9967F /* LTMCoreKit */;
+			targetProxy = CAFB14DB1D3CC0AC00A9967F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CAFB13971D3CB74800A9967F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAFB13981D3CB74800A9967F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAFB13A71D3CB7DD00A9967F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CAFB13A81D3CB7DD00A9967F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CAFB13B41D3CB85800A9967F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CAFB13B51D3CB85800A9967F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CAFB13C31D3CB8C600A9967F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CAFB13C41D3CB8C600A9967F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CAFB13D11D3CB92600A9967F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CAFB13D21D3CB92600A9967F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CAFB13E11D3CBA4A00A9967F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTMCoreKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTMCoreKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAFB13E21D3CBA4A00A9967F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTMCoreKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTMCoreKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAFB13F01D3CBA6D00A9967F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTMFoundationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTMFoundationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAFB13F11D3CBA6D00A9967F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTMFoundationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTMFoundationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAFB13FF1D3CBA8400A9967F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTMiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTMiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAFB14001D3CBA8400A9967F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTMiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTMiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFB138B1D3CB74800A9967F /* Build configuration list for PBXProject "LTMToolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFB13971D3CB74800A9967F /* Debug */,
+				CAFB13981D3CB74800A9967F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFB13A61D3CB7DD00A9967F /* Build configuration list for PBXNativeTarget "LTMCoreKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFB13A71D3CB7DD00A9967F /* Debug */,
+				CAFB13A81D3CB7DD00A9967F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFB13B31D3CB85800A9967F /* Build configuration list for PBXNativeTarget "LTMFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFB13B41D3CB85800A9967F /* Debug */,
+				CAFB13B51D3CB85800A9967F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFB13C21D3CB8C600A9967F /* Build configuration list for PBXNativeTarget "LTMiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFB13C31D3CB8C600A9967F /* Debug */,
+				CAFB13C41D3CB8C600A9967F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFB13D01D3CB92600A9967F /* Build configuration list for PBXNativeTarget "LTMSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFB13D11D3CB92600A9967F /* Debug */,
+				CAFB13D21D3CB92600A9967F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFB13E01D3CBA4A00A9967F /* Build configuration list for PBXNativeTarget "LTMCoreKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFB13E11D3CBA4A00A9967F /* Debug */,
+				CAFB13E21D3CBA4A00A9967F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFB13EF1D3CBA6D00A9967F /* Build configuration list for PBXNativeTarget "LTMFoundationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFB13F01D3CBA6D00A9967F /* Debug */,
+				CAFB13F11D3CBA6D00A9967F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFB13FE1D3CBA8400A9967F /* Build configuration list for PBXNativeTarget "LTMiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFB13FF1D3CBA8400A9967F /* Debug */,
+				CAFB14001D3CBA8400A9967F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFB13881D3CB74800A9967F /* Project object */;
+}
