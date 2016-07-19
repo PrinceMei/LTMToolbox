@@ -4,10 +4,10 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>LTMBlockKit.xcscheme</key>
+		<key>LTMBlocksKit.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>5</integer>
 		</dict>
 		<key>LTMCoreKit.xcscheme</key>
 		<dict>
@@ -43,6 +43,11 @@
 			<true/>
 		</dict>
 		<key>104980EA1D3DDCFB004CE136</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>104981141D3E0A66004CE136</key>
 		<dict>
 			<key>primary</key>
 			<true/>
