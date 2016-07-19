@@ -22,6 +22,7 @@
 		104980D81D3DDBC6004CE136 /* LTMUITextView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 104980C71D3DDBC6004CE136 /* LTMUITextView+BlocksKit.m */; };
 		104980D91D3DDBC6004CE136 /* LTMUIView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 104980C91D3DDBC6004CE136 /* LTMUIView+BlocksKit.m */; };
 		104980DA1D3DDBC6004CE136 /* LTMUIWebView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 104980CB1D3DDBC6004CE136 /* LTMUIWebView+BlocksKit.m */; };
+		104980F41D3DDF39004CE136 /* LTMWeakProxyTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 104980F31D3DDF39004CE136 /* LTMWeakProxyTestCase.m */; };
 		CA36A8A41D3CF94200D9EC82 /* LTMContentSizeUtility.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14861D3CBD3300A9967F /* LTMContentSizeUtility.h */; };
 		CA36A8A51D3CF94200D9EC82 /* LTMContentSizeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14871D3CBD3300A9967F /* LTMContentSizeUtility.m */; };
 		CA36A8A61D3CF94200D9EC82 /* LTMGIFImage.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14881D3CBD3300A9967F /* LTMGIFImage.h */; };
@@ -260,6 +261,7 @@
 		104980C91D3DDBC6004CE136 /* LTMUIView+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIView+BlocksKit.m"; sourceTree = "<group>"; };
 		104980CA1D3DDBC6004CE136 /* LTMUIWebView+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIWebView+BlocksKit.h"; sourceTree = "<group>"; };
 		104980CB1D3DDBC6004CE136 /* LTMUIWebView+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIWebView+BlocksKit.m"; sourceTree = "<group>"; };
+		104980F31D3DDF39004CE136 /* LTMWeakProxyTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMWeakProxyTestCase.m; sourceTree = "<group>"; };
 		CA36A8DF1D3CFE8300D9EC82 /* LTMMathTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMMathTestCase.m; sourceTree = "<group>"; };
 		CA36A8E11D3DC42B00D9EC82 /* LTMObjectTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMObjectTransformer.h; sourceTree = "<group>"; };
 		CA36A8E21D3DC42B00D9EC82 /* LTMObjectTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMObjectTransformer.m; sourceTree = "<group>"; };
@@ -695,6 +697,7 @@
 			children = (
 				CAFB13DC1D3CBA4A00A9967F /* Info.plist */,
 				CA36A8DF1D3CFE8300D9EC82 /* LTMMathTestCase.m */,
+				104980F31D3DDF39004CE136 /* LTMWeakProxyTestCase.m */,
 			);
 			path = LTMCoreKitTests;
 			sourceTree = "<group>";
@@ -1109,6 +1112,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				104980F41D3DDF39004CE136 /* LTMWeakProxyTestCase.m in Sources */,
 				CA36A8E01D3CFE8300D9EC82 /* LTMMathTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
