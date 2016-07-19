@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		104980CC1D3DDBC6004CE136 /* LTMNSObject+BKBlockExecution.m in Sources */ = {isa = PBXBuildFile; fileRef = 104980AB1D3DDBC6004CE136 /* LTMNSObject+BKBlockExecution.m */; };
+		104980CD1D3DDBC6004CE136 /* LTMNSTimer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 104980AD1D3DDBC6004CE136 /* LTMNSTimer+BlocksKit.m */; };
+		104980CE1D3DDBC6004CE136 /* LTMA2BlockInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 104980B01D3DDBC6004CE136 /* LTMA2BlockInvocation.m */; };
+		104980CF1D3DDBC6004CE136 /* LTMA2DynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 104980B21D3DDBC6004CE136 /* LTMA2DynamicDelegate.m */; };
+		104980D01D3DDBC6004CE136 /* LTMNSObject+A2BlockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 104980B41D3DDBC6004CE136 /* LTMNSObject+A2BlockDelegate.m */; };
+		104980D11D3DDBC6004CE136 /* LTMNSObject+A2DynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 104980B61D3DDBC6004CE136 /* LTMNSObject+A2DynamicDelegate.m */; };
+		104980D21D3DDBC6004CE136 /* LTMUIActionSheet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 104980BB1D3DDBC6004CE136 /* LTMUIActionSheet+BlocksKit.m */; };
+		104980D31D3DDBC6004CE136 /* LTMUIAlertView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 104980BD1D3DDBC6004CE136 /* LTMUIAlertView+BlocksKit.m */; };
+		104980D41D3DDBC6004CE136 /* LTMUIBarButtonItem+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 104980BF1D3DDBC6004CE136 /* LTMUIBarButtonItem+BlocksKit.m */; };
+		104980D51D3DDBC6004CE136 /* LTMUIControl+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 104980C11D3DDBC6004CE136 /* LTMUIControl+BlocksKit.m */; };
+		104980D61D3DDBC6004CE136 /* LTMUIGestureRecognizer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 104980C31D3DDBC6004CE136 /* LTMUIGestureRecognizer+BlocksKit.m */; };
+		104980D71D3DDBC6004CE136 /* LTMUITextField+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 104980C51D3DDBC6004CE136 /* LTMUITextField+BlocksKit.m */; };
+		104980D81D3DDBC6004CE136 /* LTMUITextView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 104980C71D3DDBC6004CE136 /* LTMUITextView+BlocksKit.m */; };
+		104980D91D3DDBC6004CE136 /* LTMUIView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 104980C91D3DDBC6004CE136 /* LTMUIView+BlocksKit.m */; };
+		104980DA1D3DDBC6004CE136 /* LTMUIWebView+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 104980CB1D3DDBC6004CE136 /* LTMUIWebView+BlocksKit.m */; };
 		CA36A8A41D3CF94200D9EC82 /* LTMContentSizeUtility.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14861D3CBD3300A9967F /* LTMContentSizeUtility.h */; };
 		CA36A8A51D3CF94200D9EC82 /* LTMContentSizeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14871D3CBD3300A9967F /* LTMContentSizeUtility.m */; };
 		CA36A8A61D3CF94200D9EC82 /* LTMGIFImage.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14881D3CBD3300A9967F /* LTMGIFImage.h */; };
@@ -162,6 +177,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		1049809C1D3DDA51004CE136 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CAFB139E1D3CB7DD00A9967F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,6 +225,41 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1049809E1D3DDA51004CE136 /* libLTMBlockKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLTMBlockKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		104980A91D3DDBC6004CE136 /* LTMMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMMacros.h; sourceTree = "<group>"; };
+		104980AA1D3DDBC6004CE136 /* LTMNSObject+BKBlockExecution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMNSObject+BKBlockExecution.h"; sourceTree = "<group>"; };
+		104980AB1D3DDBC6004CE136 /* LTMNSObject+BKBlockExecution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMNSObject+BKBlockExecution.m"; sourceTree = "<group>"; };
+		104980AC1D3DDBC6004CE136 /* LTMNSTimer+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMNSTimer+BlocksKit.h"; sourceTree = "<group>"; };
+		104980AD1D3DDBC6004CE136 /* LTMNSTimer+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMNSTimer+BlocksKit.m"; sourceTree = "<group>"; };
+		104980AF1D3DDBC6004CE136 /* LTMA2BlockInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMA2BlockInvocation.h; sourceTree = "<group>"; };
+		104980B01D3DDBC6004CE136 /* LTMA2BlockInvocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMA2BlockInvocation.m; sourceTree = "<group>"; };
+		104980B11D3DDBC6004CE136 /* LTMA2DynamicDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMA2DynamicDelegate.h; sourceTree = "<group>"; };
+		104980B21D3DDBC6004CE136 /* LTMA2DynamicDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMA2DynamicDelegate.m; sourceTree = "<group>"; };
+		104980B31D3DDBC6004CE136 /* LTMNSObject+A2BlockDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMNSObject+A2BlockDelegate.h"; sourceTree = "<group>"; };
+		104980B41D3DDBC6004CE136 /* LTMNSObject+A2BlockDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMNSObject+A2BlockDelegate.m"; sourceTree = "<group>"; };
+		104980B51D3DDBC6004CE136 /* LTMNSObject+A2DynamicDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMNSObject+A2DynamicDelegate.h"; sourceTree = "<group>"; };
+		104980B61D3DDBC6004CE136 /* LTMNSObject+A2DynamicDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMNSObject+A2DynamicDelegate.m"; sourceTree = "<group>"; };
+		104980B71D3DDBC6004CE136 /* LTMBlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMBlocksKit.h; sourceTree = "<group>"; };
+		104980B81D3DDBC6004CE136 /* LTMBlocksKit+UIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMBlocksKit+UIKit.h"; sourceTree = "<group>"; };
+		104980B91D3DDBC6004CE136 /* LTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMDefines.h; sourceTree = "<group>"; };
+		104980BA1D3DDBC6004CE136 /* LTMUIActionSheet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIActionSheet+BlocksKit.h"; sourceTree = "<group>"; };
+		104980BB1D3DDBC6004CE136 /* LTMUIActionSheet+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIActionSheet+BlocksKit.m"; sourceTree = "<group>"; };
+		104980BC1D3DDBC6004CE136 /* LTMUIAlertView+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIAlertView+BlocksKit.h"; sourceTree = "<group>"; };
+		104980BD1D3DDBC6004CE136 /* LTMUIAlertView+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIAlertView+BlocksKit.m"; sourceTree = "<group>"; };
+		104980BE1D3DDBC6004CE136 /* LTMUIBarButtonItem+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIBarButtonItem+BlocksKit.h"; sourceTree = "<group>"; };
+		104980BF1D3DDBC6004CE136 /* LTMUIBarButtonItem+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIBarButtonItem+BlocksKit.m"; sourceTree = "<group>"; };
+		104980C01D3DDBC6004CE136 /* LTMUIControl+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIControl+BlocksKit.h"; sourceTree = "<group>"; };
+		104980C11D3DDBC6004CE136 /* LTMUIControl+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIControl+BlocksKit.m"; sourceTree = "<group>"; };
+		104980C21D3DDBC6004CE136 /* LTMUIGestureRecognizer+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIGestureRecognizer+BlocksKit.h"; sourceTree = "<group>"; };
+		104980C31D3DDBC6004CE136 /* LTMUIGestureRecognizer+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIGestureRecognizer+BlocksKit.m"; sourceTree = "<group>"; };
+		104980C41D3DDBC6004CE136 /* LTMUITextField+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUITextField+BlocksKit.h"; sourceTree = "<group>"; };
+		104980C51D3DDBC6004CE136 /* LTMUITextField+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUITextField+BlocksKit.m"; sourceTree = "<group>"; };
+		104980C61D3DDBC6004CE136 /* LTMUITextView+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUITextView+BlocksKit.h"; sourceTree = "<group>"; };
+		104980C71D3DDBC6004CE136 /* LTMUITextView+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUITextView+BlocksKit.m"; sourceTree = "<group>"; };
+		104980C81D3DDBC6004CE136 /* LTMUIView+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIView+BlocksKit.h"; sourceTree = "<group>"; };
+		104980C91D3DDBC6004CE136 /* LTMUIView+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIView+BlocksKit.m"; sourceTree = "<group>"; };
+		104980CA1D3DDBC6004CE136 /* LTMUIWebView+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIWebView+BlocksKit.h"; sourceTree = "<group>"; };
+		104980CB1D3DDBC6004CE136 /* LTMUIWebView+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIWebView+BlocksKit.m"; sourceTree = "<group>"; };
 		CA36A8DF1D3CFE8300D9EC82 /* LTMMathTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMMathTestCase.m; sourceTree = "<group>"; };
 		CA36A8E11D3DC42B00D9EC82 /* LTMObjectTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMObjectTransformer.h; sourceTree = "<group>"; };
 		CA36A8E21D3DC42B00D9EC82 /* LTMObjectTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMObjectTransformer.m; sourceTree = "<group>"; };
@@ -318,6 +377,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1049809B1D3DDA51004CE136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CAFB139D1D3CB7DD00A9967F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -376,6 +442,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1049809F1D3DDA51004CE136 /* LTMBlockKit */ = {
+			isa = PBXGroup;
+			children = (
+				104980A71D3DDA94004CE136 /* src */,
+			);
+			path = LTMBlockKit;
+			sourceTree = "<group>";
+		};
+		104980A71D3DDA94004CE136 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				104980A81D3DDBC6004CE136 /* Core */,
+				104980AE1D3DDBC6004CE136 /* DynamicDelegates */,
+				104980B71D3DDBC6004CE136 /* LTMBlocksKit.h */,
+				104980B81D3DDBC6004CE136 /* LTMBlocksKit+UIKit.h */,
+				104980B91D3DDBC6004CE136 /* LTMDefines.h */,
+				104980BA1D3DDBC6004CE136 /* LTMUIActionSheet+BlocksKit.h */,
+				104980BB1D3DDBC6004CE136 /* LTMUIActionSheet+BlocksKit.m */,
+				104980BC1D3DDBC6004CE136 /* LTMUIAlertView+BlocksKit.h */,
+				104980BD1D3DDBC6004CE136 /* LTMUIAlertView+BlocksKit.m */,
+				104980BE1D3DDBC6004CE136 /* LTMUIBarButtonItem+BlocksKit.h */,
+				104980BF1D3DDBC6004CE136 /* LTMUIBarButtonItem+BlocksKit.m */,
+				104980C01D3DDBC6004CE136 /* LTMUIControl+BlocksKit.h */,
+				104980C11D3DDBC6004CE136 /* LTMUIControl+BlocksKit.m */,
+				104980C21D3DDBC6004CE136 /* LTMUIGestureRecognizer+BlocksKit.h */,
+				104980C31D3DDBC6004CE136 /* LTMUIGestureRecognizer+BlocksKit.m */,
+				104980C41D3DDBC6004CE136 /* LTMUITextField+BlocksKit.h */,
+				104980C51D3DDBC6004CE136 /* LTMUITextField+BlocksKit.m */,
+				104980C61D3DDBC6004CE136 /* LTMUITextView+BlocksKit.h */,
+				104980C71D3DDBC6004CE136 /* LTMUITextView+BlocksKit.m */,
+				104980C81D3DDBC6004CE136 /* LTMUIView+BlocksKit.h */,
+				104980C91D3DDBC6004CE136 /* LTMUIView+BlocksKit.m */,
+				104980CA1D3DDBC6004CE136 /* LTMUIWebView+BlocksKit.h */,
+				104980CB1D3DDBC6004CE136 /* LTMUIWebView+BlocksKit.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		104980A81D3DDBC6004CE136 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				104980A91D3DDBC6004CE136 /* LTMMacros.h */,
+				104980AA1D3DDBC6004CE136 /* LTMNSObject+BKBlockExecution.h */,
+				104980AB1D3DDBC6004CE136 /* LTMNSObject+BKBlockExecution.m */,
+				104980AC1D3DDBC6004CE136 /* LTMNSTimer+BlocksKit.h */,
+				104980AD1D3DDBC6004CE136 /* LTMNSTimer+BlocksKit.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		104980AE1D3DDBC6004CE136 /* DynamicDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				104980AF1D3DDBC6004CE136 /* LTMA2BlockInvocation.h */,
+				104980B01D3DDBC6004CE136 /* LTMA2BlockInvocation.m */,
+				104980B11D3DDBC6004CE136 /* LTMA2DynamicDelegate.h */,
+				104980B21D3DDBC6004CE136 /* LTMA2DynamicDelegate.m */,
+				104980B31D3DDBC6004CE136 /* LTMNSObject+A2BlockDelegate.h */,
+				104980B41D3DDBC6004CE136 /* LTMNSObject+A2BlockDelegate.m */,
+				104980B51D3DDBC6004CE136 /* LTMNSObject+A2DynamicDelegate.h */,
+				104980B61D3DDBC6004CE136 /* LTMNSObject+A2DynamicDelegate.m */,
+			);
+			path = DynamicDelegates;
+			sourceTree = "<group>";
+		};
 		CAFB13871D3CB74800A9967F = {
 			isa = PBXGroup;
 			children = (
@@ -383,6 +514,7 @@
 				CAFB13AE1D3CB85800A9967F /* LTMFoundation */,
 				CAFB13BD1D3CB8C600A9967F /* LTMiOS */,
 				CAFB13CB1D3CB92600A9967F /* LTMSecurity */,
+				1049809F1D3DDA51004CE136 /* LTMBlockKit */,
 				CAFB13D91D3CBA4A00A9967F /* LTMCoreKitTests */,
 				CAFB13E81D3CBA6D00A9967F /* LTMFoundationTests */,
 				CAFB13F71D3CBA8400A9967F /* LTMiOSTests */,
@@ -400,6 +532,7 @@
 				CAFB13D81D3CBA4A00A9967F /* LTMCoreKitTests.xctest */,
 				CAFB13E71D3CBA6D00A9967F /* LTMFoundationTests.xctest */,
 				CAFB13F61D3CBA8400A9967F /* LTMiOSTests.xctest */,
+				1049809E1D3DDA51004CE136 /* libLTMBlockKit.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -604,6 +737,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1049809D1D3DDA51004CE136 /* LTMBlockKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104980A61D3DDA51004CE136 /* Build configuration list for PBXNativeTarget "LTMBlockKit" */;
+			buildPhases = (
+				1049809A1D3DDA51004CE136 /* Sources */,
+				1049809B1D3DDA51004CE136 /* Frameworks */,
+				1049809C1D3DDA51004CE136 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTMBlockKit;
+			productName = LTMBlockKit;
+			productReference = 1049809E1D3DDA51004CE136 /* libLTMBlockKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		CAFB139F1D3CB7DD00A9967F /* LTMCoreKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAFB13A61D3CB7DD00A9967F /* Build configuration list for PBXNativeTarget "LTMCoreKit" */;
@@ -739,6 +889,10 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Youku;
 				TargetAttributes = {
+					1049809D1D3DDA51004CE136 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = MLK8X6D896;
+					};
 					CAFB139F1D3CB7DD00A9967F = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -778,6 +932,7 @@
 				CAFB13AC1D3CB85800A9967F /* LTMFoundation */,
 				CAFB13BB1D3CB8C600A9967F /* LTMiOS */,
 				CAFB13C91D3CB92600A9967F /* LTMSecurity */,
+				1049809D1D3DDA51004CE136 /* LTMBlockKit */,
 				CAFB13D71D3CBA4A00A9967F /* LTMCoreKitTests */,
 				CAFB13E61D3CBA6D00A9967F /* LTMFoundationTests */,
 				CAFB13F51D3CBA8400A9967F /* LTMiOSTests */,
@@ -810,6 +965,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1049809A1D3DDA51004CE136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104980CE1D3DDBC6004CE136 /* LTMA2BlockInvocation.m in Sources */,
+				104980D01D3DDBC6004CE136 /* LTMNSObject+A2BlockDelegate.m in Sources */,
+				104980D41D3DDBC6004CE136 /* LTMUIBarButtonItem+BlocksKit.m in Sources */,
+				104980DA1D3DDBC6004CE136 /* LTMUIWebView+BlocksKit.m in Sources */,
+				104980CF1D3DDBC6004CE136 /* LTMA2DynamicDelegate.m in Sources */,
+				104980D21D3DDBC6004CE136 /* LTMUIActionSheet+BlocksKit.m in Sources */,
+				104980D81D3DDBC6004CE136 /* LTMUITextView+BlocksKit.m in Sources */,
+				104980D31D3DDBC6004CE136 /* LTMUIAlertView+BlocksKit.m in Sources */,
+				104980D71D3DDBC6004CE136 /* LTMUITextField+BlocksKit.m in Sources */,
+				104980D11D3DDBC6004CE136 /* LTMNSObject+A2DynamicDelegate.m in Sources */,
+				104980D91D3DDBC6004CE136 /* LTMUIView+BlocksKit.m in Sources */,
+				104980CC1D3DDBC6004CE136 /* LTMNSObject+BKBlockExecution.m in Sources */,
+				104980D61D3DDBC6004CE136 /* LTMUIGestureRecognizer+BlocksKit.m in Sources */,
+				104980D51D3DDBC6004CE136 /* LTMUIControl+BlocksKit.m in Sources */,
+				104980CD1D3DDBC6004CE136 /* LTMNSTimer+BlocksKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CAFB139C1D3CB7DD00A9967F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -994,6 +1171,24 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		104980A41D3DDA51004CE136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		104980A51D3DDA51004CE136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		CAFB13971D3CB74800A9967F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1211,6 +1406,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		104980A61D3DDA51004CE136 /* Build configuration list for PBXNativeTarget "LTMBlockKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104980A41D3DDA51004CE136 /* Debug */,
+				104980A51D3DDA51004CE136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		CAFB138B1D3CB74800A9967F /* Build configuration list for PBXProject "LTMToolbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
