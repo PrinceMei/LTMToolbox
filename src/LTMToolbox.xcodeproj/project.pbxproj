@@ -36,6 +36,12 @@
 		1049815B1D3E0B2E004CE136 /* LTMUITextView+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 104981321D3E0AA9004CE136 /* LTMUITextView+BlocksKit.h */; };
 		1049815C1D3E0B2F004CE136 /* LTMUIView+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 104981341D3E0AA9004CE136 /* LTMUIView+BlocksKit.h */; };
 		1049815D1D3E0B2F004CE136 /* LTMUIWebView+BlocksKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 104981361D3E0AA9004CE136 /* LTMUIWebView+BlocksKit.h */; };
+		1049815F1D3E1496004CE136 /* LTMNSDataUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1049815E1D3E1496004CE136 /* LTMNSDataUtilityTests.m */; };
+		104981671D3E26DD004CE136 /* LTMNSDateUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 104981661D3E26DD004CE136 /* LTMNSDateUtilityTests.m */; };
+		104981691D3E2CDE004CE136 /* LTMNSDictionaryUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 104981681D3E2CDE004CE136 /* LTMNSDictionaryUtilityTests.m */; };
+		1049816B1D3E39BD004CE136 /* LTMNSJSONSerializationUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1049816A1D3E39BD004CE136 /* LTMNSJSONSerializationUtilityTests.m */; };
+		1049816D1D3E3C54004CE136 /* LTMNSStringDigitsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1049816C1D3E3C54004CE136 /* LTMNSStringDigitsTests.m */; };
+		104981941D3E4884004CE136 /* libLTMFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFB13AD1D3CB85800A9967F /* libLTMFoundation.a */; };
 		CA36A8A41D3CF94200D9EC82 /* LTMContentSizeUtility.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14861D3CBD3300A9967F /* LTMContentSizeUtility.h */; };
 		CA36A8A51D3CF94200D9EC82 /* LTMContentSizeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14871D3CBD3300A9967F /* LTMContentSizeUtility.m */; };
 		CA36A8A61D3CF94200D9EC82 /* LTMGIFImage.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14881D3CBD3300A9967F /* LTMGIFImage.h */; };
@@ -94,7 +100,6 @@
 		CA36A8EF1D3DCD5400D9EC82 /* libLTMFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFB13AD1D3CB85800A9967F /* libLTMFoundation.a */; };
 		CA36A8F21D3DCDE800D9EC82 /* libLTMSecurity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFB13CA1D3CB92600A9967F /* libLTMSecurity.a */; };
 		CAFB13DD1D3CBA4A00A9967F /* libLTMCoreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFB13A01D3CB7DD00A9967F /* libLTMCoreKit.a */; };
-		CAFB13EC1D3CBA6D00A9967F /* libLTMFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFB13AD1D3CB85800A9967F /* libLTMFoundation.a */; };
 		CAFB14171D3CBBFD00A9967F /* LTMMath.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14121D3CBBFD00A9967F /* LTMMath.m */; };
 		CAFB14181D3CBBFD00A9967F /* LTMPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14141D3CBBFD00A9967F /* LTMPaths.m */; };
 		CAFB14191D3CBBFD00A9967F /* LTMWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14161D3CBBFD00A9967F /* LTMWeakProxy.m */; };
@@ -139,6 +144,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		104981921D3E487F004CE136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFB13881D3CB74800A9967F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFB13AC1D3CB85800A9967F;
+			remoteInfo = LTMFoundation;
+		};
 		CA36A8CA1D3CF98700D9EC82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CAFB13881D3CB74800A9967F /* Project object */;
@@ -173,13 +185,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = CAFB139F1D3CB7DD00A9967F;
 			remoteInfo = LTMCoreKit;
-		};
-		CAFB13ED1D3CBA6D00A9967F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CAFB13881D3CB74800A9967F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CAFB13AC1D3CB85800A9967F;
-			remoteInfo = LTMFoundation;
 		};
 		CAFB14DB1D3CC0AC00A9967F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -288,6 +293,12 @@
 		1049813F1D3E0AA9004CE136 /* LTMNSObject+A2BlockDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMNSObject+A2BlockDelegate.m"; sourceTree = "<group>"; };
 		104981401D3E0AA9004CE136 /* LTMNSObject+A2DynamicDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMNSObject+A2DynamicDelegate.h"; sourceTree = "<group>"; };
 		104981411D3E0AA9004CE136 /* LTMNSObject+A2DynamicDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMNSObject+A2DynamicDelegate.m"; sourceTree = "<group>"; };
+		1049815E1D3E1496004CE136 /* LTMNSDataUtilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMNSDataUtilityTests.m; sourceTree = "<group>"; };
+		104981651D3E19A2004CE136 /* testData */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testData; sourceTree = "<group>"; };
+		104981661D3E26DD004CE136 /* LTMNSDateUtilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMNSDateUtilityTests.m; sourceTree = "<group>"; };
+		104981681D3E2CDE004CE136 /* LTMNSDictionaryUtilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMNSDictionaryUtilityTests.m; sourceTree = "<group>"; };
+		1049816A1D3E39BD004CE136 /* LTMNSJSONSerializationUtilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMNSJSONSerializationUtilityTests.m; sourceTree = "<group>"; };
+		1049816C1D3E3C54004CE136 /* LTMNSStringDigitsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMNSStringDigitsTests.m; sourceTree = "<group>"; };
 		CA36A8DF1D3CFE8300D9EC82 /* LTMMathTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMMathTestCase.m; sourceTree = "<group>"; };
 		CA36A8E11D3DC42B00D9EC82 /* LTMObjectTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMObjectTransformer.h; sourceTree = "<group>"; };
 		CA36A8E21D3DC42B00D9EC82 /* LTMObjectTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMObjectTransformer.m; sourceTree = "<group>"; };
@@ -455,7 +466,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAFB13EC1D3CBA6D00A9967F /* libLTMFoundation.a in Frameworks */,
+				104981941D3E4884004CE136 /* libLTMFoundation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +602,7 @@
 		CAFB13B71D3CB87800A9967F /* src */ = {
 			isa = PBXGroup;
 			children = (
+				CAFB145C1D3CBCC900A9967F /* LTMFoundation.h */,
 				CA36A8E11D3DC42B00D9EC82 /* LTMObjectTransformer.h */,
 				CA36A8E21D3DC42B00D9EC82 /* LTMObjectTransformer.m */,
 				CAFB144A1D3CBCC900A9967F /* LTMNSBundleUtility.h */,
@@ -611,7 +623,6 @@
 				CAFB14591D3CBCC900A9967F /* LTMNSStringUtility.m */,
 				CAFB145A1D3CBCC900A9967F /* LTMNSArrayUtility.h */,
 				CAFB145B1D3CBCC900A9967F /* LTMNSArrayUtility.m */,
-				CAFB145C1D3CBCC900A9967F /* LTMFoundation.h */,
 				CAFB145D1D3CBCC900A9967F /* LTMFoundationDefines.h */,
 				CAFB145E1D3CBCC900A9967F /* LTMNSString+Digits.h */,
 				CAFB145F1D3CBCC900A9967F /* LTMNSString+Digits.m */,
@@ -626,6 +637,7 @@
 				CAFB14681D3CBCC900A9967F /* LTMZipArchive.h */,
 				CAFB14691D3CBCC900A9967F /* LTMZipArchive.m */,
 				CAFB14491D3CBC5600A9967F /* minizip */,
+				104981651D3E19A2004CE136 /* testData */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -725,6 +737,11 @@
 			children = (
 				CAFB13EB1D3CBA6D00A9967F /* Info.plist */,
 				CA36A8E41D3DC61600D9EC82 /* LTMObjectTransformerTests.m */,
+				1049815E1D3E1496004CE136 /* LTMNSDataUtilityTests.m */,
+				104981661D3E26DD004CE136 /* LTMNSDateUtilityTests.m */,
+				104981681D3E2CDE004CE136 /* LTMNSDictionaryUtilityTests.m */,
+				1049816A1D3E39BD004CE136 /* LTMNSJSONSerializationUtilityTests.m */,
+				1049816C1D3E3C54004CE136 /* LTMNSStringDigitsTests.m */,
 			);
 			path = LTMFoundationTests;
 			sourceTree = "<group>";
@@ -876,7 +893,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CAFB13EE1D3CBA6D00A9967F /* PBXTargetDependency */,
+				104981931D3E487F004CE136 /* PBXTargetDependency */,
 			);
 			name = LTMFoundationTests;
 			productName = LTMFoundationTests;
@@ -1139,7 +1156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1049816B1D3E39BD004CE136 /* LTMNSJSONSerializationUtilityTests.m in Sources */,
 				CA36A8E51D3DC61600D9EC82 /* LTMObjectTransformerTests.m in Sources */,
+				1049815F1D3E1496004CE136 /* LTMNSDataUtilityTests.m in Sources */,
+				1049816D1D3E3C54004CE136 /* LTMNSStringDigitsTests.m in Sources */,
+				104981671D3E26DD004CE136 /* LTMNSDateUtilityTests.m in Sources */,
+				104981691D3E2CDE004CE136 /* LTMNSDictionaryUtilityTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1155,6 +1177,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		104981931D3E487F004CE136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFB13AC1D3CB85800A9967F /* LTMFoundation */;
+			targetProxy = 104981921D3E487F004CE136 /* PBXContainerItemProxy */;
+		};
 		CA36A8CB1D3CF98700D9EC82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CAFB139F1D3CB7DD00A9967F /* LTMCoreKit */;
@@ -1179,11 +1206,6 @@
 			isa = PBXTargetDependency;
 			target = CAFB139F1D3CB7DD00A9967F /* LTMCoreKit */;
 			targetProxy = CAFB13DE1D3CBA4A00A9967F /* PBXContainerItemProxy */;
-		};
-		CAFB13EE1D3CBA6D00A9967F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CAFB13AC1D3CB85800A9967F /* LTMFoundation */;
-			targetProxy = CAFB13ED1D3CBA6D00A9967F /* PBXContainerItemProxy */;
 		};
 		CAFB14DC1D3CC0AC00A9967F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1388,8 +1410,10 @@
 		CAFB13F01D3CBA6D00A9967F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = LTMFoundationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTMFoundationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1398,8 +1422,10 @@
 		CAFB13F11D3CBA6D00A9967F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = LTMFoundationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTMFoundationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
