@@ -9,7 +9,6 @@
 #import "LTMUIBarButtonItemUtility.h"
 #import "LTMUIColor+RGB.h"
 #import "LTMContentSizeUtility.h"
-#import "LFUIView+Add.h"
 
 @implementation LTMUIBarButtonItemUtility
 
@@ -56,7 +55,7 @@
     
     
     UIBarButtonItem *barBtnItem  = [[UIBarButtonItem alloc] initWithCustomView:customButton];
-    barBtnItem.width             = customButton.lf_width;
+    barBtnItem.width             = customButton.frame.size.width;
     return barBtnItem;
     
     
@@ -101,7 +100,7 @@
     customButton.titleEdgeInsets = UIEdgeInsetsMake(0, -5, 0, 0);
     customButton.titleLabel.font = [UIFont systemFontOfSize:16.f];
     UIBarButtonItem *barBtnItem  = [[UIBarButtonItem alloc] initWithCustomView:customButton];
-    barBtnItem.width             = customButton.lf_width;
+    barBtnItem.width            = customButton.frame.size.width;
     return barBtnItem;
 
     
