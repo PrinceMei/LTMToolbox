@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "LTMNSString+Digits.h"
+#import "LTMFoundation.h"
 
 @interface LTMNSStringDigitsTests : XCTestCase
 

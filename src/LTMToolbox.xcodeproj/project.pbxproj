@@ -99,6 +99,7 @@
 		CA36A8EC1D3DC8E000D9EC82 /* libLTMiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFB13BC1D3CB8C600A9967F /* libLTMiOS.a */; };
 		CA36A8EF1D3DCD5400D9EC82 /* libLTMFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFB13AD1D3CB85800A9967F /* libLTMFoundation.a */; };
 		CA36A8F21D3DCDE800D9EC82 /* libLTMSecurity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFB13CA1D3CB92600A9967F /* libLTMSecurity.a */; };
+		CA36A9141D3F5F5000D9EC82 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CA36A9131D3F5F5000D9EC82 /* libz.tbd */; };
 		CAFB13DD1D3CBA4A00A9967F /* libLTMCoreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFB13A01D3CB7DD00A9967F /* libLTMCoreKit.a */; };
 		CAFB14171D3CBBFD00A9967F /* LTMMath.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14121D3CBBFD00A9967F /* LTMMath.m */; };
 		CAFB14181D3CBBFD00A9967F /* LTMPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14141D3CBBFD00A9967F /* LTMPaths.m */; };
@@ -305,6 +306,7 @@
 		CA36A8E41D3DC61600D9EC82 /* LTMObjectTransformerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMObjectTransformerTests.m; sourceTree = "<group>"; };
 		CA36A8E61D3DC69B00D9EC82 /* LTMContentSizeUtilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMContentSizeUtilityTests.m; sourceTree = "<group>"; };
 		CA36A8E81D3DC82600D9EC82 /* LTMUIDeviceUtilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMUIDeviceUtilityTests.m; sourceTree = "<group>"; };
+		CA36A9131D3F5F5000D9EC82 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		CAFB13A01D3CB7DD00A9967F /* libLTMCoreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLTMCoreKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFB13AD1D3CB85800A9967F /* libLTMFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLTMFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFB13BC1D3CB8C600A9967F /* libLTMiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLTMiOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -466,6 +468,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA36A9141D3F5F5000D9EC82 /* libz.tbd in Frameworks */,
 				104981941D3E4884004CE136 /* libLTMFoundation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,6 +544,7 @@
 		CAFB13871D3CB74800A9967F = {
 			isa = PBXGroup;
 			children = (
+				CA36A9131D3F5F5000D9EC82 /* libz.tbd */,
 				CAFB13A11D3CB7DD00A9967F /* LTMCoreKit */,
 				CAFB13AE1D3CB85800A9967F /* LTMFoundation */,
 				CAFB13BD1D3CB8C600A9967F /* LTMiOS */,
@@ -1336,7 +1340,10 @@
 		CAFB13B41D3CB85800A9967F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -1345,7 +1352,10 @@
 		CAFB13B51D3CB85800A9967F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -1413,7 +1423,7 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = LTMFoundationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTMFoundationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1425,7 +1435,7 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = LTMFoundationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTMFoundationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1461,6 +1471,7 @@
 				1049811D1D3E0A66004CE136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAFB138B1D3CB74800A9967F /* Build configuration list for PBXProject "LTMToolbox" */ = {
 			isa = XCConfigurationList;
