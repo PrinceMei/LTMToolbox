@@ -26,7 +26,7 @@
 }
 
 
-#define XCTStringTrue(str1, str2) XCTAssertTrue([str1 isEqualToString:str2])
+#define XCTStringTrue(str1, str2) XCTAssertTrue([str1 caseInsensitiveCompare:str2])
 - (void)testMDx {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.

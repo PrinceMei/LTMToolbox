@@ -15,7 +15,7 @@ static LTMStringEncoding *g_hexStringCoder = nil;
 
 @implementation NSString (LTMNSStringDigitsAdditions)
 
-+ (void)initialize
++ (void)load
 {
     if (self == [NSString class]) {
         g_hexStringCoder = [LTMStringEncoding hexStringEncoding];
@@ -43,7 +43,7 @@ static LTMStringEncoding *g_hexStringCoder = nil;
 - (NSString *)ltm_SHA1Digits {
     NSData *sha1Data = [LFCommonDigest SHA1:[self dataUsingEncoding:NSUTF8StringEncoding]];
     NSString *sha1String = [g_hexStringCoder encode:sha1Data];
-    return sha1Data;
+    return sha1String;
 }
 
 - (NSString *)ltm_SHA224Digits {
