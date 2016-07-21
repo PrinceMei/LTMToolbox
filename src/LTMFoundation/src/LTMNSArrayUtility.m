@@ -22,6 +22,9 @@
     
     NSArray *sortedMergedArray = nil;
     if ([array1 count] && [array2 count]) {
+        
+        _LTMDevAssert([array1[0] isKindOfClass:[array2[0] class]], @"both array’s elements are not the same class");
+        
         NSMutableArray *mergingArray = [NSMutableArray arrayWithArray:array1];
         [mergingArray sortUsingSelector:comparer];
         
