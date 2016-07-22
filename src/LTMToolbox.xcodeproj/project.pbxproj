@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101116811D41BA1D00AAAE8A /* LTMURLArgumentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 101116801D41BA1D00AAAE8A /* LTMURLArgumentsTests.m */; };
+		101D25801D407FCC00E72998 /* LTMTypeUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 101D257F1D407FCC00E72998 /* LTMTypeUtilityTests.m */; };
+		101D25821D40B86200E72998 /* LTMURLCoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 101D25811D40B86200E72998 /* LTMURLCoderTests.m */; };
 		104980F41D3DDF39004CE136 /* LTMWeakProxyTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 104980F31D3DDF39004CE136 /* LTMWeakProxyTestCase.m */; };
 		104981421D3E0AA9004CE136 /* LTMNSObject+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 104981231D3E0AA9004CE136 /* LTMNSObject+BlocksKit.m */; };
 		104981431D3E0AA9004CE136 /* LTMNSTimer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 104981251D3E0AA9004CE136 /* LTMNSTimer+BlocksKit.m */; };
@@ -259,6 +262,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		101116801D41BA1D00AAAE8A /* LTMURLArgumentsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMURLArgumentsTests.m; sourceTree = "<group>"; };
+		101D257F1D407FCC00E72998 /* LTMTypeUtilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMTypeUtilityTests.m; sourceTree = "<group>"; };
+		101D25811D40B86200E72998 /* LTMURLCoderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMURLCoderTests.m; sourceTree = "<group>"; };
 		104980F31D3DDF39004CE136 /* LTMWeakProxyTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMWeakProxyTestCase.m; sourceTree = "<group>"; };
 		104981151D3E0A66004CE136 /* libLTMBlocksKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLTMBlocksKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1049811F1D3E0AA9004CE136 /* LTMBlocksKit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LTMBlocksKit; sourceTree = "<group>"; };
@@ -296,7 +302,6 @@
 		104981401D3E0AA9004CE136 /* LTMNSObject+A2DynamicDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMNSObject+A2DynamicDelegate.h"; sourceTree = "<group>"; };
 		104981411D3E0AA9004CE136 /* LTMNSObject+A2DynamicDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMNSObject+A2DynamicDelegate.m"; sourceTree = "<group>"; };
 		1049815E1D3E1496004CE136 /* LTMNSDataUtilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMNSDataUtilityTests.m; sourceTree = "<group>"; };
-		104981651D3E19A2004CE136 /* testData */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testData; sourceTree = "<group>"; };
 		104981661D3E26DD004CE136 /* LTMNSDateUtilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMNSDateUtilityTests.m; sourceTree = "<group>"; };
 		104981681D3E2CDE004CE136 /* LTMNSDictionaryUtilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMNSDictionaryUtilityTests.m; sourceTree = "<group>"; };
 		1049816A1D3E39BD004CE136 /* LTMNSJSONSerializationUtilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMNSJSONSerializationUtilityTests.m; sourceTree = "<group>"; };
@@ -644,7 +649,6 @@
 				CAFB14681D3CBCC900A9967F /* LTMZipArchive.h */,
 				CAFB14691D3CBCC900A9967F /* LTMZipArchive.m */,
 				CAFB14491D3CBC5600A9967F /* minizip */,
-				104981651D3E19A2004CE136 /* testData */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -751,6 +755,9 @@
 				104981681D3E2CDE004CE136 /* LTMNSDictionaryUtilityTests.m */,
 				1049816A1D3E39BD004CE136 /* LTMNSJSONSerializationUtilityTests.m */,
 				1049816C1D3E3C54004CE136 /* LTMNSStringDigitsTests.m */,
+				101D257F1D407FCC00E72998 /* LTMTypeUtilityTests.m */,
+				101D25811D40B86200E72998 /* LTMURLCoderTests.m */,
+				101116801D41BA1D00AAAE8A /* LTMURLArgumentsTests.m */,
 			);
 			path = LTMFoundationTests;
 			sourceTree = "<group>";
@@ -1171,7 +1178,10 @@
 				1049815F1D3E1496004CE136 /* LTMNSDataUtilityTests.m in Sources */,
 				1049816D1D3E3C54004CE136 /* LTMNSStringDigitsTests.m in Sources */,
 				104981671D3E26DD004CE136 /* LTMNSDateUtilityTests.m in Sources */,
+				101116811D41BA1D00AAAE8A /* LTMURLArgumentsTests.m in Sources */,
+				101D25821D40B86200E72998 /* LTMURLCoderTests.m in Sources */,
 				104981691D3E2CDE004CE136 /* LTMNSDictionaryUtilityTests.m in Sources */,
+				101D25801D407FCC00E72998 /* LTMTypeUtilityTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
