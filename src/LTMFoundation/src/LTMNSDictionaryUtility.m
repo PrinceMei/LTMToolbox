@@ -58,7 +58,7 @@ static NSNumber *NSNumberFromID(id value) {
     NSArray *sortedKeys = [self allKeysSorted:dictionary];
     NSMutableArray *arr = [[NSMutableArray alloc] init];
     [sortedKeys enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        [arr addObject:obj];
+        [arr addObject:[dictionary objectForKey:obj]];
     }];
     return arr;
 

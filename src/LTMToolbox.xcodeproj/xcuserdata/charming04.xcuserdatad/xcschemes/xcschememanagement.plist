@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>LTMBlocksKitTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>LTMCoreKit.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>LTMCoreKitTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 		<key>LTMFoundation.xcscheme</key>
 		<dict>
@@ -29,14 +39,49 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>LTMSecurityTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>LTMiOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>LTMiOSTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>101116851D41BFE600AAAE8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>101116921D41C04100AAAE8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>101116AC1D42476900AAAE8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1011E0461D45CE06004A7A9A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1011E0551D45CE3A004A7A9A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>1049809D1D3DDA51004CE136</key>
 		<dict>
 			<key>primary</key>

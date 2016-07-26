@@ -49,7 +49,7 @@
     
     // ISO8601格式
     str = [LTMNSDateUtility stringWithISOFormat:date];
-    XCTStringTrue(@"1970-01-01T00:00:00+12:00", str);
+    XCTStringTrue(@"1970-01-01T08:00:00+0800", str);
     /// 实际得到的结果为1970-01-01T08:00:00+0800
     
     str = @"2016-07-19 15:34:50";
