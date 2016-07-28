@@ -16,8 +16,30 @@ Pod::Spec.new do |s|
   
   s.requires_arc = true
 
-  s.subspec 'Core' do |ss|
+  s.subspec 'LTMCoreKit' do |ss|
     ss.source_files = 'src/LTMCoreKit/src'
   end
 
+  s.subspec 'LTMSecurity' do |ss|
+    ss.source_files = 'src/LTMSecurity/src'
+  end
+
+  s.subspec 'LTMFoundation' do |ss|
+    ss.source_files = 'src/LTMFoundation/src'
+    ss.dependency 'LTMToolbox/LTMCoreKit'
+    ss.dependency 'LTMToolbox/LTMSecurity'
+  end
+
+  s.subspec 'LTMiOS' do |ss|
+    ss.source_files = 'src/LTMiOS/src'
+    ss.dependency 'LTMToolbox/LTMCoreKit'
+    ss.dependency 'LTMToolbox/LTMFoundation'
+  end
+
+  s.subspec 'LTMBlocksKit' do |ss|
+    ss.source_files = 'src/LTMBlocksKit/src/**/*.{h,m}'
+  end
+
+
+  s.libraries = 'z'
 end
