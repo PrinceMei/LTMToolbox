@@ -26,20 +26,20 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <LTMBlocksKit/LTMBlocksKitDefines.h>
 
-#import <LTMBlocksKit/LTMNSTimer+BlocksKit.h>
-#import <LTMBlocksKit/LTMNSObject+BlocksKit.h>
+#import "LTMBlocksKitDefines.h"
+#import "LTMNSTimer+BlocksKit.h"
+#import "LTMNSObject+BlocksKit.h"
 
 //MARK:UI
-#import <LTMBlocksKit/LTMUIActionSheet+BlocksKit.h>
-#import <LTMBlocksKit/LTMUIAlertView+BlocksKit.h>
-#import <LTMBlocksKit/LTMUIBarButtonItem+BlocksKit.h>
-#import <LTMBlocksKit/LTMUIControl+BlocksKit.h>
-#import <LTMBlocksKit/LTMUIGestureRecognizer+BlocksKit.h>
-#import <LTMBlocksKit/LTMUITextField+BlocksKit.h>
-#import <LTMBlocksKit/LTMUIView+BlocksKit.h>
-#import <LTMBlocksKit/LTMUIWebView+BlocksKit.h>
-#import <LTMBlocksKit/LTMUITextField+BlocksKit.h>
-#import <LTMBlocksKit/LTMUITextView+BlocksKit.h>
+#import "LTMUIActionSheet+BlocksKit.h"
+#import "LTMUIAlertView+BlocksKit.h"
+#import "LTMUIBarButtonItem+BlocksKit.h"
+#import "LTMUIControl+BlocksKit.h"
+#import "LTMUIGestureRecognizer+BlocksKit.h"
+#import "LTMUITextField+BlocksKit.h"
+#import "LTMUIView+BlocksKit.h"
+#import "LTMUIWebView+BlocksKit.h"
+#import "LTMUITextField+BlocksKit.h"
+#import "LTMUITextView+BlocksKit.h"
 

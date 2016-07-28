@@ -24,25 +24,6 @@
 #endif
 #endif
 
-#if !defined(_DKSEDevAssert)
-#if DEBUG
-#define _DKSEDevAssert(condition, desc, ...)	\
-do {				\
-__PRAGMA_PUSH_NO_EXTRA_ARG_WARNINGS \
-if (!(condition)) {		\
-NSString *__assert_file__ = [NSString stringWithUTF8String:__FILE__]; \
-__assert_file__ = __assert_file__ ? __assert_file__ : @"<Unknown File>"; \
-[[NSAssertionHandler currentHandler] handleFailureInMethod:_cmd \
-object:self file:__assert_file__ \
-lineNumber:__LINE__ description:(desc), ##__VA_ARGS__]; \
-}				\
-__PRAGMA_POP_NO_EXTRA_ARG_WARNINGS \
-} while(0)
-#endif
-#else
-#define _DKSEDevAssert(condition, desc, ...) do {} while(0)
-#endif
-
 #import "LTMStringEncoding.h"
 
 enum {
@@ -158,7 +139,6 @@ FOUNDATION_STATIC_INLINE int lcm(int a, int b) {
     char *buf = (char *)[chars cStringUsingEncoding:NSASCIIStringEncoding];
     while (*buf) {
         int c = *buf++;
-        _DKSEDevAssert(_reverseCharMap[c] == kUnknownChar, @"Character already mapped");
         _reverseCharMap[c] = kIgnoreChar;
     }
 }
@@ -206,7 +186,6 @@ FOUNDATION_STATIC_INLINE int lcm(int a, int b) {
             outBuf[outPos++] = _paddingChar;
     }
     
-    _DKSEDevAssert(outPos == outLength, @"Underflowed output buffer");
     [outData setLength:outPos];
     
     return [[NSString alloc] initWithData:outData encoding:NSASCIIStringEncoding];
@@ -264,7 +243,6 @@ FOUNDATION_STATIC_INLINE int lcm(int a, int b) {
     }
     
     // Shorten buffer if needed due to padding chars
-    _DKSEDevAssert(outPos <= outLen, @"Overflowed buffer");
     [outData setLength:outPos];
     return outData;
 }

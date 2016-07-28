@@ -130,27 +130,12 @@
 		1090DC811D49F13800107C62 /* LTMURLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14651D3CBCC900A9967F /* LTMURLArguments.m */; };
 		1090DC821D49F13800107C62 /* LTMURLCoder.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14661D3CBCC900A9967F /* LTMURLCoder.h */; };
 		1090DC831D49F13800107C62 /* LTMURLCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14671D3CBCC900A9967F /* LTMURLCoder.m */; };
-		1090DC841D49F13800107C62 /* LTMZipArchive.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14681D3CBCC900A9967F /* LTMZipArchive.h */; };
-		1090DC851D49F13800107C62 /* LTMZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14691D3CBCC900A9967F /* LTMZipArchive.m */; };
-		1090DC861D49F13800107C62 /* crypt.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14791D3CBCD700A9967F /* crypt.h */; };
-		1090DC871D49F13800107C62 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = CAFB147A1D3CBCD700A9967F /* ioapi.c */; };
-		1090DC881D49F13800107C62 /* ioapi.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB147B1D3CBCD700A9967F /* ioapi.h */; };
-		1090DC891D49F13800107C62 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = CAFB147C1D3CBCD700A9967F /* mztools.c */; };
-		1090DC8A1D49F13800107C62 /* mztools.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB147D1D3CBCD700A9967F /* mztools.h */; };
-		1090DC8B1D49F13800107C62 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = CAFB147E1D3CBCD700A9967F /* unzip.c */; };
-		1090DC8C1D49F13800107C62 /* unzip.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB147F1D3CBCD700A9967F /* unzip.h */; };
-		1090DC8D1D49F13800107C62 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14801D3CBCD700A9967F /* zip.c */; };
-		1090DC8E1D49F13800107C62 /* zip.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14811D3CBCD700A9967F /* zip.h */; };
 		10E7299C1D49A8640096D7D4 /* leftArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E729991D49A6610096D7D4 /* leftArrow.png */; };
 		CA36A8D41D3CFC5900D9EC82 /* LFCCHexStringEncoding.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14CA1D3CBD5000A9967F /* LFCCHexStringEncoding.h */; };
 		CA36A8D51D3CFC5900D9EC82 /* LFCCHexStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14CB1D3CBD5000A9967F /* LFCCHexStringEncoding.m */; };
 		CA36A8D61D3CFC5900D9EC82 /* LFCommonCrypto.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14CC1D3CBD5000A9967F /* LFCommonCrypto.h */; };
-		CA36A8D71D3CFC5900D9EC82 /* LFCommonCryptor.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14CD1D3CBD5000A9967F /* LFCommonCryptor.h */; };
-		CA36A8D81D3CFC5900D9EC82 /* LFCommonCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14CE1D3CBD5000A9967F /* LFCommonCryptor.m */; };
 		CA36A8D91D3CFC5900D9EC82 /* LFCommonDigest.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14CF1D3CBD5000A9967F /* LFCommonDigest.h */; };
 		CA36A8DA1D3CFC5900D9EC82 /* LFCommonDigest.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14D01D3CBD5000A9967F /* LFCommonDigest.m */; };
-		CA36A8DB1D3CFC5900D9EC82 /* LFCommonHMAC.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14D11D3CBD5000A9967F /* LFCommonHMAC.h */; };
-		CA36A8DC1D3CFC5900D9EC82 /* LFCommonHMAC.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14D21D3CBD5000A9967F /* LFCommonHMAC.m */; };
 		CA36A8DD1D3CFC5900D9EC82 /* LFRSACryptor.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14D31D3CBD5000A9967F /* LFRSACryptor.h */; };
 		CA36A8DE1D3CFC5900D9EC82 /* LFRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14D41D3CBD5000A9967F /* LFRSACryptor.m */; };
 		CA36A8E01D3CFE8300D9EC82 /* LTMMathTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = CA36A8DF1D3CFE8300D9EC82 /* LTMMathTestCase.m */; };
@@ -316,7 +301,6 @@
 		10252E321D4717E900CF9C06 /* LTMUIImageCategoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMUIImageCategoryTests.m; sourceTree = "<group>"; };
 		104980F31D3DDF39004CE136 /* LTMWeakProxyTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMWeakProxyTestCase.m; sourceTree = "<group>"; };
 		104981151D3E0A66004CE136 /* libLTMBlocksKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLTMBlocksKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1049811F1D3E0AA9004CE136 /* LTMBlocksKit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LTMBlocksKit; sourceTree = "<group>"; };
 		104981201D3E0AA9004CE136 /* LTMBlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMBlocksKit.h; sourceTree = "<group>"; };
 		104981211D3E0AA9004CE136 /* LTMBlocksKitDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMBlocksKitDefines.h; sourceTree = "<group>"; };
 		104981221D3E0AA9004CE136 /* LTMNSObject+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMNSObject+BlocksKit.h"; sourceTree = "<group>"; };
@@ -409,17 +393,6 @@
 		CAFB14651D3CBCC900A9967F /* LTMURLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMURLArguments.m; sourceTree = "<group>"; };
 		CAFB14661D3CBCC900A9967F /* LTMURLCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMURLCoder.h; sourceTree = "<group>"; };
 		CAFB14671D3CBCC900A9967F /* LTMURLCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMURLCoder.m; sourceTree = "<group>"; };
-		CAFB14681D3CBCC900A9967F /* LTMZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMZipArchive.h; sourceTree = "<group>"; };
-		CAFB14691D3CBCC900A9967F /* LTMZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMZipArchive.m; sourceTree = "<group>"; };
-		CAFB14791D3CBCD700A9967F /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
-		CAFB147A1D3CBCD700A9967F /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
-		CAFB147B1D3CBCD700A9967F /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
-		CAFB147C1D3CBCD700A9967F /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
-		CAFB147D1D3CBCD700A9967F /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
-		CAFB147E1D3CBCD700A9967F /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
-		CAFB147F1D3CBCD700A9967F /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
-		CAFB14801D3CBCD700A9967F /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
-		CAFB14811D3CBCD700A9967F /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
 		CAFB14861D3CBD3300A9967F /* LTMContentSizeUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMContentSizeUtility.h; sourceTree = "<group>"; };
 		CAFB14871D3CBD3300A9967F /* LTMContentSizeUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMContentSizeUtility.m; sourceTree = "<group>"; };
 		CAFB14881D3CBD3300A9967F /* LTMGIFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMGIFImage.h; sourceTree = "<group>"; };
@@ -457,12 +430,8 @@
 		CAFB14CA1D3CBD5000A9967F /* LFCCHexStringEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCCHexStringEncoding.h; sourceTree = "<group>"; };
 		CAFB14CB1D3CBD5000A9967F /* LFCCHexStringEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCCHexStringEncoding.m; sourceTree = "<group>"; };
 		CAFB14CC1D3CBD5000A9967F /* LFCommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCommonCrypto.h; sourceTree = "<group>"; };
-		CAFB14CD1D3CBD5000A9967F /* LFCommonCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCommonCryptor.h; sourceTree = "<group>"; };
-		CAFB14CE1D3CBD5000A9967F /* LFCommonCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCommonCryptor.m; sourceTree = "<group>"; };
 		CAFB14CF1D3CBD5000A9967F /* LFCommonDigest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCommonDigest.h; sourceTree = "<group>"; };
 		CAFB14D01D3CBD5000A9967F /* LFCommonDigest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCommonDigest.m; sourceTree = "<group>"; };
-		CAFB14D11D3CBD5000A9967F /* LFCommonHMAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCommonHMAC.h; sourceTree = "<group>"; };
-		CAFB14D21D3CBD5000A9967F /* LFCommonHMAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCommonHMAC.m; sourceTree = "<group>"; };
 		CAFB14D31D3CBD5000A9967F /* LFRSACryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFRSACryptor.h; sourceTree = "<group>"; };
 		CAFB14D41D3CBD5000A9967F /* LFRSACryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFRSACryptor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -585,7 +554,6 @@
 		1049811E1D3E0AA9004CE136 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				1049811F1D3E0AA9004CE136 /* LTMBlocksKit */,
 				104981201D3E0AA9004CE136 /* LTMBlocksKit.h */,
 				104981211D3E0AA9004CE136 /* LTMBlocksKitDefines.h */,
 				104981221D3E0AA9004CE136 /* LTMNSObject+BlocksKit.h */,
@@ -732,9 +700,6 @@
 				CAFB14651D3CBCC900A9967F /* LTMURLArguments.m */,
 				CAFB14661D3CBCC900A9967F /* LTMURLCoder.h */,
 				CAFB14671D3CBCC900A9967F /* LTMURLCoder.m */,
-				CAFB14681D3CBCC900A9967F /* LTMZipArchive.h */,
-				CAFB14691D3CBCC900A9967F /* LTMZipArchive.m */,
-				CAFB14491D3CBC5600A9967F /* minizip */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -809,12 +774,8 @@
 				CAFB14CA1D3CBD5000A9967F /* LFCCHexStringEncoding.h */,
 				CAFB14CB1D3CBD5000A9967F /* LFCCHexStringEncoding.m */,
 				CAFB14CC1D3CBD5000A9967F /* LFCommonCrypto.h */,
-				CAFB14CD1D3CBD5000A9967F /* LFCommonCryptor.h */,
-				CAFB14CE1D3CBD5000A9967F /* LFCommonCryptor.m */,
 				CAFB14CF1D3CBD5000A9967F /* LFCommonDigest.h */,
 				CAFB14D01D3CBD5000A9967F /* LFCommonDigest.m */,
-				CAFB14D11D3CBD5000A9967F /* LFCommonHMAC.h */,
-				CAFB14D21D3CBD5000A9967F /* LFCommonHMAC.m */,
 				CAFB14D31D3CBD5000A9967F /* LFRSACryptor.h */,
 				CAFB14D41D3CBD5000A9967F /* LFRSACryptor.m */,
 			);
@@ -858,22 +819,6 @@
 				10252E321D4717E900CF9C06 /* LTMUIImageCategoryTests.m */,
 			);
 			path = LTMiOSTests;
-			sourceTree = "<group>";
-		};
-		CAFB14491D3CBC5600A9967F /* minizip */ = {
-			isa = PBXGroup;
-			children = (
-				CAFB14791D3CBCD700A9967F /* crypt.h */,
-				CAFB147A1D3CBCD700A9967F /* ioapi.c */,
-				CAFB147B1D3CBCD700A9967F /* ioapi.h */,
-				CAFB147C1D3CBCD700A9967F /* mztools.c */,
-				CAFB147D1D3CBCD700A9967F /* mztools.h */,
-				CAFB147E1D3CBCD700A9967F /* unzip.c */,
-				CAFB147F1D3CBCD700A9967F /* unzip.h */,
-				CAFB14801D3CBCD700A9967F /* zip.c */,
-				CAFB14811D3CBCD700A9967F /* zip.h */,
-			);
-			path = minizip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1259,17 +1204,6 @@
 				1090DC811D49F13800107C62 /* LTMURLArguments.m in Sources */,
 				1090DC821D49F13800107C62 /* LTMURLCoder.h in Sources */,
 				1090DC831D49F13800107C62 /* LTMURLCoder.m in Sources */,
-				1090DC841D49F13800107C62 /* LTMZipArchive.h in Sources */,
-				1090DC851D49F13800107C62 /* LTMZipArchive.m in Sources */,
-				1090DC861D49F13800107C62 /* crypt.h in Sources */,
-				1090DC871D49F13800107C62 /* ioapi.c in Sources */,
-				1090DC881D49F13800107C62 /* ioapi.h in Sources */,
-				1090DC891D49F13800107C62 /* mztools.c in Sources */,
-				1090DC8A1D49F13800107C62 /* mztools.h in Sources */,
-				1090DC8B1D49F13800107C62 /* unzip.c in Sources */,
-				1090DC8C1D49F13800107C62 /* unzip.h in Sources */,
-				1090DC8D1D49F13800107C62 /* zip.c in Sources */,
-				1090DC8E1D49F13800107C62 /* zip.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1323,12 +1257,8 @@
 				CA36A8D41D3CFC5900D9EC82 /* LFCCHexStringEncoding.h in Sources */,
 				CA36A8D51D3CFC5900D9EC82 /* LFCCHexStringEncoding.m in Sources */,
 				CA36A8D61D3CFC5900D9EC82 /* LFCommonCrypto.h in Sources */,
-				CA36A8D71D3CFC5900D9EC82 /* LFCommonCryptor.h in Sources */,
-				CA36A8D81D3CFC5900D9EC82 /* LFCommonCryptor.m in Sources */,
 				CA36A8D91D3CFC5900D9EC82 /* LFCommonDigest.h in Sources */,
 				CA36A8DA1D3CFC5900D9EC82 /* LFCommonDigest.m in Sources */,
-				CA36A8DB1D3CFC5900D9EC82 /* LFCommonHMAC.h in Sources */,
-				CA36A8DC1D3CFC5900D9EC82 /* LFCommonHMAC.m in Sources */,
 				CA36A8DD1D3CFC5900D9EC82 /* LFRSACryptor.h in Sources */,
 				CA36A8DE1D3CFC5900D9EC82 /* LFRSACryptor.m in Sources */,
 			);

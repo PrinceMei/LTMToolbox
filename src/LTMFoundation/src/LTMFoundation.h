@@ -23,7 +23,6 @@
 #import "LTMTypeUtility.h"
 #import "LTMURLArguments.h"
 #import "LTMURLCoder.h"
-#import "LTMZipArchive.h"
 #import "LTMObjectTransformer.h"
 
 #endif /* LTMFoundation_h */

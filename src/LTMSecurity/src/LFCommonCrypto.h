@@ -10,9 +10,7 @@
 #ifndef __LF_COMMONCRYPTO_PUBLIC__
 #define __LF_COMMONCRYPTO_PUBLIC__
 
-#import "LFCommonCryptor.h"
 #import "LFCommonDigest.h"
-#import "LFCommonHMAC.h"
 #import "LFCCHexStringEncoding.h"
 
 #endif
