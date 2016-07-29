@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'LTMFoundation' do |ss|
-    ss.source_files = 'src/LTMFoundation/src'
+    ss.source_files = 'src/LTMFoundation/src/**/*.{h,m}'
     ss.dependency 'LTMToolbox/LTMCoreKit'
     ss.dependency 'LTMToolbox/LTMSecurity'
   end

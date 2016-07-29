@@ -142,6 +142,8 @@
 		CA36A8E51D3DC61600D9EC82 /* LTMObjectTransformerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA36A8E41D3DC61600D9EC82 /* LTMObjectTransformerTests.m */; };
 		CA36A8F21D3DCDE800D9EC82 /* libLTMSecurity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFB13CA1D3CB92600A9967F /* libLTMSecurity.a */; };
 		CA36A9171D3F63F400D9EC82 /* LTMTelephonyNetworkInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CA36A9161D3F63F400D9EC82 /* LTMTelephonyNetworkInfo.m */; };
+		CAA9BF471D4AF272008B25BA /* LFCommonCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA9BF441D4AF272008B25BA /* LFCommonCryptor.m */; };
+		CAA9BF481D4AF272008B25BA /* LFCommonHMAC.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA9BF461D4AF272008B25BA /* LFCommonHMAC.m */; };
 		CAFB13DD1D3CBA4A00A9967F /* libLTMCoreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFB13A01D3CB7DD00A9967F /* libLTMCoreKit.a */; };
 		CAFB14171D3CBBFD00A9967F /* LTMMath.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14121D3CBBFD00A9967F /* LTMMath.m */; };
 		CAFB14181D3CBBFD00A9967F /* LTMPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14141D3CBBFD00A9967F /* LTMPaths.m */; };
@@ -345,6 +347,10 @@
 		CA36A9131D3F5F5000D9EC82 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		CA36A9151D3F63F400D9EC82 /* LTMTelephonyNetworkInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMTelephonyNetworkInfo.h; sourceTree = "<group>"; };
 		CA36A9161D3F63F400D9EC82 /* LTMTelephonyNetworkInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMTelephonyNetworkInfo.m; sourceTree = "<group>"; };
+		CAA9BF431D4AF272008B25BA /* LFCommonCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCommonCryptor.h; sourceTree = "<group>"; };
+		CAA9BF441D4AF272008B25BA /* LFCommonCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCommonCryptor.m; sourceTree = "<group>"; };
+		CAA9BF451D4AF272008B25BA /* LFCommonHMAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCommonHMAC.h; sourceTree = "<group>"; };
+		CAA9BF461D4AF272008B25BA /* LFCommonHMAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCommonHMAC.m; sourceTree = "<group>"; };
 		CAFB13A01D3CB7DD00A9967F /* libLTMCoreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLTMCoreKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFB13AD1D3CB85800A9967F /* libLTMFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLTMFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFB13BC1D3CB8C600A9967F /* libLTMiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLTMiOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -771,6 +777,10 @@
 		CAFB13D31D3CB93000A9967F /* src */ = {
 			isa = PBXGroup;
 			children = (
+				CAA9BF431D4AF272008B25BA /* LFCommonCryptor.h */,
+				CAA9BF441D4AF272008B25BA /* LFCommonCryptor.m */,
+				CAA9BF451D4AF272008B25BA /* LFCommonHMAC.h */,
+				CAA9BF461D4AF272008B25BA /* LFCommonHMAC.m */,
 				CAFB14CA1D3CBD5000A9967F /* LFCCHexStringEncoding.h */,
 				CAFB14CB1D3CBD5000A9967F /* LFCCHexStringEncoding.m */,
 				CAFB14CC1D3CBD5000A9967F /* LFCommonCrypto.h */,
@@ -1256,7 +1266,9 @@
 			files = (
 				CA36A8D41D3CFC5900D9EC82 /* LFCCHexStringEncoding.h in Sources */,
 				CA36A8D51D3CFC5900D9EC82 /* LFCCHexStringEncoding.m in Sources */,
+				CAA9BF471D4AF272008B25BA /* LFCommonCryptor.m in Sources */,
 				CA36A8D61D3CFC5900D9EC82 /* LFCommonCrypto.h in Sources */,
+				CAA9BF481D4AF272008B25BA /* LFCommonHMAC.m in Sources */,
 				CA36A8D91D3CFC5900D9EC82 /* LFCommonDigest.h in Sources */,
 				CA36A8DA1D3CFC5900D9EC82 /* LFCommonDigest.m in Sources */,
 				CA36A8DD1D3CFC5900D9EC82 /* LFRSACryptor.h in Sources */,
