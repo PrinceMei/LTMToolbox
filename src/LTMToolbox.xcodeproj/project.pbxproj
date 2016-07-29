@@ -157,8 +157,6 @@
 		10C1C5661D4B706800BADEBB /* LTMNSObject+A2DynamicDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 104981401D3E0AA9004CE136 /* LTMNSObject+A2DynamicDelegate.h */; };
 		10C1C5671D4B706800BADEBB /* LTMNSObject+A2DynamicDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 104981411D3E0AA9004CE136 /* LTMNSObject+A2DynamicDelegate.m */; };
 		10E7299C1D49A8640096D7D4 /* leftArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E729991D49A6610096D7D4 /* leftArrow.png */; };
-		CA36A8D41D3CFC5900D9EC82 /* LFCCHexStringEncoding.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14CA1D3CBD5000A9967F /* LFCCHexStringEncoding.h */; };
-		CA36A8D51D3CFC5900D9EC82 /* LFCCHexStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14CB1D3CBD5000A9967F /* LFCCHexStringEncoding.m */; };
 		CA36A8D61D3CFC5900D9EC82 /* LFCommonCrypto.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14CC1D3CBD5000A9967F /* LFCommonCrypto.h */; };
 		CA36A8D91D3CFC5900D9EC82 /* LFCommonDigest.h in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14CF1D3CBD5000A9967F /* LFCommonDigest.h */; };
 		CA36A8DA1D3CFC5900D9EC82 /* LFCommonDigest.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFB14D01D3CBD5000A9967F /* LFCommonDigest.m */; };
@@ -464,8 +462,6 @@
 		CAFB14B11D3CBD3300A9967F /* LTMUIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIImage+RoundedCorner.m"; sourceTree = "<group>"; };
 		CAFB14B21D3CBD3300A9967F /* LTMUIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIView+Snapshot.h"; sourceTree = "<group>"; };
 		CAFB14B31D3CBD3300A9967F /* LTMUIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIView+Snapshot.m"; sourceTree = "<group>"; };
-		CAFB14CA1D3CBD5000A9967F /* LFCCHexStringEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCCHexStringEncoding.h; sourceTree = "<group>"; };
-		CAFB14CB1D3CBD5000A9967F /* LFCCHexStringEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCCHexStringEncoding.m; sourceTree = "<group>"; };
 		CAFB14CC1D3CBD5000A9967F /* LFCommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCommonCrypto.h; sourceTree = "<group>"; };
 		CAFB14CF1D3CBD5000A9967F /* LFCommonDigest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCommonDigest.h; sourceTree = "<group>"; };
 		CAFB14D01D3CBD5000A9967F /* LFCommonDigest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFCommonDigest.m; sourceTree = "<group>"; };
@@ -810,8 +806,6 @@
 				CAA9BF441D4AF272008B25BA /* LFCommonCryptor.m */,
 				CAA9BF451D4AF272008B25BA /* LFCommonHMAC.h */,
 				CAA9BF461D4AF272008B25BA /* LFCommonHMAC.m */,
-				CAFB14CA1D3CBD5000A9967F /* LFCCHexStringEncoding.h */,
-				CAFB14CB1D3CBD5000A9967F /* LFCCHexStringEncoding.m */,
 				CAFB14CC1D3CBD5000A9967F /* LFCommonCrypto.h */,
 				CAFB14CF1D3CBD5000A9967F /* LFCommonDigest.h */,
 				CAFB14D01D3CBD5000A9967F /* LFCommonDigest.m */,
@@ -1320,8 +1314,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA36A8D41D3CFC5900D9EC82 /* LFCCHexStringEncoding.h in Sources */,
-				CA36A8D51D3CFC5900D9EC82 /* LFCCHexStringEncoding.m in Sources */,
 				CAA9BF471D4AF272008B25BA /* LFCommonCryptor.m in Sources */,
 				CA36A8D61D3CFC5900D9EC82 /* LFCommonCrypto.h in Sources */,
 				CAA9BF481D4AF272008B25BA /* LFCommonHMAC.m in Sources */,
