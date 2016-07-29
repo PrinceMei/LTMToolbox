@@ -27,7 +27,7 @@
  * we might have code like the following:
  *
  @code
- for (UIView<LFRecyclableView>* view in visibleViews) {
+ for (UIView<LTMRecyclableView>* view in visibleViews) {
  if (![self isVisible:view]) {
  [viewRecycler recycleView:view];
  [view removeFromSuperview];
@@ -40,9 +40,9 @@
  * This is when we try to dequeue a recycled view from the recycler.
  *
  @code
- UIView<LFRecyclableView>* view = [viewRecycler dequeueReusableViewWithIdentifier:reuseIdentifier];
+ UIView<LTMRecyclableView>* view = [viewRecycler dequeueReusableViewWithIdentifier:reuseIdentifier];
  if (nil == view) {
- // Allocate a new view that conforms to the LFRecyclableView protocol.
+ // Allocate a new view that conforms to the LTMRecyclableView protocol.
  view = [[[...]] autorelease];
  }
  [self addSubview:view];
@@ -53,10 +53,10 @@
 
 
 /**
- * The LFRecyclableView protocol defines a set of optional methods that a view may implement to
+ * The LTMRecyclableView protocol defines a set of optional methods that a view may implement to
  * handle being added to a LFViewRecycler.
  */
-@protocol LFRecyclableView <NSObject>
+@protocol LTMRecyclableView <NSObject>
 
 @optional
 
@@ -85,9 +85,9 @@
 @interface LTMViewRecycler : NSObject
 
 
-- (UIView<LFRecyclableView> *)dequeueReusableViewWithIdentifier:(NSString *)reuseIdentifier;
+- (UIView<LTMRecyclableView> *)dequeueReusableViewWithIdentifier:(NSString *)reuseIdentifier;
 
-- (void)recycleView:(UIView<LFRecyclableView> *)view;
+- (void)recycleView:(UIView<LTMRecyclableView> *)view;
 
 - (void)removeAllViews;
 

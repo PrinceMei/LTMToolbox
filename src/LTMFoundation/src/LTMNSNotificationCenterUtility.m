@@ -17,6 +17,8 @@
 + (void)postNotificationOnMainThreadWithName:(NSString *)name object:(id)object userInfo:(NSDictionary *)userInfo{
     
     if (pthread_main_np()) return [[NSNotificationCenter defaultCenter] postNotificationName:name object:object userInfo:userInfo];
+    
+    
     [self postNotificationOnMainThreadWithName:name object:object userInfo:userInfo waitUntilDone:NO];
 }
 

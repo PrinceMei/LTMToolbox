@@ -44,9 +44,9 @@
 }
 
 #pragma mark --Public
-- (UIView<LFRecyclableView> *)dequeueReusableViewWithIdentifier:(NSString *)reuseIdentifier{
+- (UIView<LTMRecyclableView> *)dequeueReusableViewWithIdentifier:(NSString *)reuseIdentifier{
     NSMutableArray * views  = [_reuseIdentifiersToRecycledViews objectForKey:reuseIdentifier];
-    UIView<LFRecyclableView> * view = [views lastObject];
+    UIView<LTMRecyclableView> * view = [views lastObject];
     if (nil != view) {
         [views removeLastObject];
         if ([view respondsToSelector:@selector(prepareForReuse)]) {
@@ -56,7 +56,7 @@
     return view;
 }
 
-- (void)recycleView:(UIView<LFRecyclableView> *)view{
+- (void)recycleView:(UIView<LTMRecyclableView> *)view{
     NSString* reuseIdentifier = nil;
     if ([view respondsToSelector:@selector(reuseIdentifier)]) {
         reuseIdentifier = [view reuseIdentifier];

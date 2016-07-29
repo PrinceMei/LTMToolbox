@@ -19,7 +19,7 @@
 #import "LTMUIDeviceUtility.h"
 #import "LTMUIImageUtility.h"
 #import "LTMUINavigationController+Add.h"
-#import "LTMUIScrollViewUtility.h"
+#import "LTMUIScrollView+Scroll.h"
 #import "LTMViewRecycler.h"
 #import "LTMGeometryUtility.h"
 #import "LTMUIImage+Alpha.h"
