@@ -23,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @name Block event handling
 ///-----------------------------------
 
+
 /** Adds a block for a particular event to an internal dispatch table.
 
  @param handler A block representing an action message, with an argument for the sender.

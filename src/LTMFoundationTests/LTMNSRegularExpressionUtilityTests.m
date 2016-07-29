@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "LTMNSRegularExpressionUtility.h"
 
 @interface LTMNSRegularExpressionUtilityTests : XCTestCase
 
@@ -28,8 +29,9 @@
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
     
-    
-    
+    // 网址
+    NSString *regx = @"^((https|http|ftp|rtsp|mms)?:\/\/)[^\s]+";
+    [LTMNSRegularExpressionUtility matchsInString:@"http://v.laifeng.com/74165" regex:regx];
     
 }
 
