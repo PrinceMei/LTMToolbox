@@ -1,5 +1,5 @@
 //
-//  LTMNSNotificationCenterUtilityTests.m
+//  LTMNSRegularExpressionUtilityTests.m
 //  LTMToolbox
 //
 //  Created by Charming04 on 16/7/29.
@@ -7,13 +7,12 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "LTMNSNotificationCenterUtility.h"
 
-@interface LTMNSNotificationCenterUtilityTests : XCTestCase
+@interface LTMNSRegularExpressionUtilityTests : XCTestCase
 
 @end
 
-@implementation LTMNSNotificationCenterUtilityTests
+@implementation LTMNSRegularExpressionUtilityTests
 
 - (void)setUp {
     [super setUp];
@@ -30,15 +29,8 @@
     // Use XCTAssert and related functions to verify your tests produce the correct results.
     
     
-    // 通过调试看到如果非主线程的话，会通过主线程调用
-
-    [LTMNSNotificationCenterUtility postNotificationOnMainThreadWithName:@"Notifi_Test1" object:nil userInfo:nil];
     
-    [self performSelectorInBackground:@selector(sendNoti) withObject:self];
-}
-
-- (void)sendNoti {
-     [LTMNSNotificationCenterUtility postNotificationOnMainThreadWithName:@"Notifi_Test1" object:nil userInfo:nil];
+    
 }
 
 - (void)testPerformanceExample {

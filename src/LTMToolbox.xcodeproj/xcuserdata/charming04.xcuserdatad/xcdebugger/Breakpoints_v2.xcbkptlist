@@ -41,14 +41,62 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LTMFoundationTests/LTMNSNotificationCenterUtilityTests.m"
-            timestampString = "491474005.893989"
+            filePath = "LTMFoundation/src/LTMNSNotificationCenterUtility.m"
+            timestampString = "491476791.756621"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "-testExample"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "+postNotificationOnMainThreadWithName:object:userInfo:"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LTMFoundation/src/LTMNSNotificationCenterUtility.m"
+            timestampString = "491478807.568517"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "+postNotificationOnMainThreadWithName:object:userInfo:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[LTMNSNotificationCenterUtility postNotificationOnMainThreadWithName:object:userInfo:]"
+                  moduleName = "LTMFoundationTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/charming04/LTMToolbox/src/LTMFoundation/src/LTMNSNotificationCenterUtility.m"
+                  timestampString = "491477818.808667"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "163">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__87+[LTMNSNotificationCenterUtility postNotificationOnMainThreadWithName:object:userInfo:]_block_invoke"
+                  moduleName = "LTMFoundationTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/charming04/LTMToolbox/src/LTMFoundation/src/LTMNSNotificationCenterUtility.m"
+                  timestampString = "491477818.808891"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

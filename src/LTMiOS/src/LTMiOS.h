@@ -18,7 +18,7 @@
 #import "LTMUIControl+Events.h"
 #import "LTMUIDeviceUtility.h"
 #import "LTMUIImageUtility.h"
-#import "LTMUINavigationController+Add.h"
+#import "LTMUINavigationController+Transition.h"
 #import "LTMUIScrollView+Scroll.h"
 #import "LTMViewRecycler.h"
 #import "LTMGeometryUtility.h"

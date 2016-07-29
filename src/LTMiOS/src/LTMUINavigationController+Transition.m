@@ -6,11 +6,11 @@
 //  Copyright (c) 2015年 youku&tudou. All rights reserved.
 //
 
-#import "LTMUINavigationController+Add.h"
+#import "LTMUINavigationController+Transition.h"
 
-@implementation UINavigationController (LTMUINavigationControllerAdditions)
+@implementation UINavigationController (LTMUINavigationControllerTransitionAdditions)
 
-- (void)lf_pushViewController: (UIViewController*)controller
+- (void)ltm_pushViewController: (UIViewController*)controller
     animatedWithTransition: (UIViewAnimationTransition)transition {
     [self pushViewController:controller animated:NO];
     
@@ -22,7 +22,7 @@
     [UIView commitAnimations];
 }
 
-- (UIViewController*)lf_popViewControllerAnimatedWithTransition:(UIViewAnimationTransition)transition {
+- (UIViewController*)ltm_popViewControllerAnimatedWithTransition:(UIViewAnimationTransition)transition {
     UIViewController* poppedController = [self popViewControllerAnimated:NO];
     
     [UIView beginAnimations:nil context:NULL];
